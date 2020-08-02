@@ -1,6 +1,7 @@
 @startuml HelloWorld
-!includeurl ../dist/Common/GCPCommon.iuml
-!includeurl ../dist/Scopes/Scopes.iuml
+!define GCP_IUML https://raw.githubusercontent.com/deepak-bhardwaj-ps/GCP-PlantUML/master/dist
+!includeurl GCP_IUML/Common/GCPCommon.iuml
+!includeurl GCP_IUML/Scopes/Scopes.iuml
 
 Scope(Boundary1, "GCP Components") {
   Project_Zone(project1, "Project Zone / Cloud Service Provider") {

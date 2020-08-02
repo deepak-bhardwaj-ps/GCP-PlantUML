@@ -1,9 +1,10 @@
 @startuml Dynamic-Hosting
-!includeurl ../dist/Common/GCPCommon.iuml
-!includeurl ../dist/Networking/Cloud_Load_Balancing.iuml
-!includeurl ../dist/Compute/Compute_Engine.iuml
-!includeurl ../dist/Databases/Cloud_SQL.iuml
-!includeurl ../dist/Scopes/Scopes.iuml
+!define GCP_IUML https://raw.githubusercontent.com/deepak-bhardwaj-ps/GCP-PlantUML/master/dist
+!includeurl GCP_IUML/Common/GCPCommon.iuml
+!includeurl GCP_IUML/Networking/Cloud_Load_Balancing.iuml
+!includeurl GCP_IUML/Compute/Compute_Engine.iuml
+!includeurl GCP_IUML/Databases/Cloud_SQL.iuml
+!includeurl GCP_IUML/Scopes/Scopes.iuml
 
 skinparam Linetype Ortho
 
