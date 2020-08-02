@@ -1,0 +1,16 @@
+@startuml ProjectAndZones3
+!define GCP_IUML https://raw.githubusercontent.com/deepak-bhardwaj-ps/GCP-PlantUML/master/dist
+!includeurl GCP_IUML/Common/GCPCommon.iuml
+!includeurl GCP_IUML/Scopes/Scopes.iuml
+
+Scope(Scope1, "External Scopes") {
+  External_Infra_1P(ei1p, "External Infrastructure 1st party")
+  External_Infra_3P(ei3p, "External Infrastructure 3rd party")
+  External_Data(External_Data1, "External Data Sources")
+  External_SaaS(External_SaaS1, "External SaaS Providers")
+  On_Premise(On_Premise1, "On-Premises Systems")
+  System1(System11, "Infrastructure System 1")
+  System2(System21, "Infrastructure System 2")
+}
+
+@enduml

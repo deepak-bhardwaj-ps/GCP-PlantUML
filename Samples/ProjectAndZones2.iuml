@@ -1,0 +1,19 @@
+@startuml ProjectAndZones2
+!define GCP_IUML https://raw.githubusercontent.com/deepak-bhardwaj-ps/GCP-PlantUML/master/dist
+!includeurl GCP_IUML/Common/GCPCommon.iuml
+!includeurl GCP_IUML/Scopes/Scopes.iuml
+
+Project_Zone(project1, "Project Zone / Cloud Service Provider") {
+  Logical_Group(lg1, "Logical Grouping of Services / Instances") {
+    Zone(z1, "Zone") {
+      Sub_Network(sn1, "Sub Network")
+    }
+  }
+  GKE_Cluster(gke1, "Kubernetes Cluster") {
+    Pod(pod1, "Pod")
+  }
+  Account(acc1, "Account")
+  Optional_Component(Optional_Component1, "Optional Component")
+}
+
+@enduml

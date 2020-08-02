@@ -1,0 +1,16 @@
+@startuml ProjectAndZones1
+!define GCP_IUML https://raw.githubusercontent.com/deepak-bhardwaj-ps/GCP-PlantUML/master/dist
+!includeurl GCP_IUML/Common/GCPCommon.iuml
+!includeurl GCP_IUML/Scopes/Scopes.iuml
+
+Project_Zone(project1, "Project Zone / Cloud Service Provider") {
+  Region(rgn1, "Region") {
+    Zone(z2, "Zone") {
+      Firewall(fw1, "Firewall") {
+        Instance_Group(ig1, "Instance Group")
+        Replica_Pool(rp1, "Replica Pool")
+      }
+    }
+  }
+}
+@enduml
