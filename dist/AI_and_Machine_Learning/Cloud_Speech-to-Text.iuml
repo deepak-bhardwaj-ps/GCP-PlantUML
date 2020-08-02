@@ -1,0 +1,12 @@
+@startuml Cloud_Speech_to_Text 
+
+sprite $Cloud_Speech [64x64/16z] {
+tPP7bWCX30L51ZMw_t4dh-O_ZFxJphLoAgTgGF9cvB5UCF957tPX43hz1iKSbBF_UFpdg3TpqKx-zlaxEVuy_Y_CvYQB8CllBq6g4PHBExvXDuh-Jq_GZciu
+ZMHUsd4DbVVLqwv_OGUgevrySM_OZV2nOJB6nuOJbVCTR5YCyR6Xel_xs_hLLzYqRZust6SVxe2_eHtdMzEOhplcxwY_OhxMcDz48_uZaYFNJu7bG_aBbo-_
+VgJ7rg_8ZkqVKZaVvmYDxP-IG_itDEHdWCJxEN9yump4dj-NyOMV0JKols13VWQUWVcDR9X0fXgEuFmi1ohN3b6g7PAvTaZd_ZoaSpgInaBqZpMol1cV
+}
+
+GCPEntityColoring(Cloud_Speech_to_Text)
+!define Cloud_Speech_to_Text(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Cloud_Speech_to_Text, Cloud_Speech_to_Text)
+!define Cloud_Speech_to_Text(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Cloud_Speech_to_Text, Cloud_Speech_to_Text)
+@enduml

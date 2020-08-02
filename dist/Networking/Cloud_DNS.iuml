@@ -1,0 +1,15 @@
+@startuml Cloud_DNS 
+
+sprite $Cloud_DNS [64x64/16z] {
+tPRRciCW28H5517X_LztFxFdTTBIsvsx9lazC7Qm_3FLCHzer2VuY2SQUVpr0JWIudj-PVXrY_T8gT_ndkET4iLxlOGrqgg8dt0g2w09y1P0KYphuSALjgI7
+0l4xFkGFJi2xjb_eyeo7Yl5BjOFIwZFlxDTxVUoXFJM95neVU-UYNmEeQQUhGWRsXxsZ3plcvygKm2BNdNV-bGJw2VcUZ1RsaC3fqiygsu-F6NW8lRElcTH-
+RbUHXnmvqRdI2ieYr1poUxPvUjZFgexR1RJJGp-75CpBkG4_lnNYFUGOmsCD3vsnnjW5dI0YkmKMrLfCImlcLRXkqC51Dx_Z9IfhASOyY_hStu6GyuDVmpxu
+JbfwPGufj3b7_F7W-kZYcRKiAhoczxt-XTRVmBzMDi-zJ2skXMUHjdb5zIjs7khzIBgii1uX8sQ_ojnE_zOPFQuhe1oS3CRHTnkv2qGKdJFrZYEVOGOAAA4U
+O-vl3MUmWrnGWCjD3q0UblvpL2Em-WxZ-sjXDFoJlgAs-cqFh3VPptqCQOJxStlKlhmLtE1mUw4uPFpZjVZ3_eKZnxLpfTh44dSWZvVaYUlBQtT0UmLVwUjR
+_WwiUNmM8ChpL90aVt_5yhHtM2tl7PQblSEgUU-m95yyBCdZM3GcabsQevP_fZS
+}
+
+GCPEntityColoring(Cloud_DNS)
+!define Cloud_DNS(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Cloud_DNS, Cloud_DNS)
+!define Cloud_DNS(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Cloud_DNS, Cloud_DNS)
+@enduml

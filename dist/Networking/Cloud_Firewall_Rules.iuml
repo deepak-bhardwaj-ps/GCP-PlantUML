@@ -1,0 +1,13 @@
+@startuml Cloud_Firewall_Rules 
+
+sprite $Cloud_Firewall_Rules [64x64/16z] {
+tTO5TWCn30JGCUFS_xZb-cKJERMgX_bXMF8OX1VZItkYU3nN-8UYs5ozWy030Lk31mPs4eyaR4mUcUwWyVHDw7dCGz1uhE5Hf48uo4wNOQPAnfKJijDaMAbK
+dsIdpx3pHizB8rjUhl_QPfSl8oBjEcWKijDiFtRPZRQCwoSvGyV_cKx8JfzXa8PdkZH3_cwj8cROfRuPZxRlugHLlFVvysKfPFRULzwBmAJ1HAP9wdpGwz8l
+duRmtyb5qV-MQTs-yS7Gd7-aIKAdmG2yfVy40DNMV-6CumVPDdw1QPi_41NpbrX7TDly2M-Slr7rwqV33MTSl_GP5bnDPNQ6yaMk0RkjVe4tra-eXlfDcQ63
+92koCzNFs8Z6-XrTdvq-mu2zh6WyKRPj3hZIxlMb5OyNymu
+}
+
+GCPEntityColoring(Cloud_Firewall_Rules)
+!define Cloud_Firewall_Rules(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Cloud_Firewall_Rules, Cloud_Firewall_Rules)
+!define Cloud_Firewall_Rules(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Cloud_Firewall_Rules, Cloud_Firewall_Rules)
+@enduml

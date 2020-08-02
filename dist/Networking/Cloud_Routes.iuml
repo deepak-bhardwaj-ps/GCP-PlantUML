@@ -1,0 +1,14 @@
+@startuml Cloud_Routes 
+
+sprite $Cloud_Routes [64x64/16z] {
+tPQ5ZWGX44IH7XYW-_z_zy98rWgso4NtHK_6whNWVeoGouGSt9niNyZyvUitY4OGtP1c1CsDs8nYSmFKADGJuQr768mcE40ncWek5rj0I7UymsHB9FUAX-vu
+Xxijig-vQtE7rRuGqyoX44qd4uUDQTgWm25mLqCdsqM97TyTLUpGmmyhe59sw717rryVfM6i-N8O1y46_IZqgC1X7OcHzog13hVnXCZdwukgHboZCXfQScNO
+hjgKdludwj9qn3GhPuuIr11RdJPOKDCpQiDKjG6LgcnL6v6PkQB5CFh8i9CDKyKW6j8ZmoE_DjX5TUIlF38S-kjwGIQQRdaTKMs3-a6_hezrQdc-NylLlhX_
+ZEiVboRzQ_F-FT79_50_dH-Wo5hiv8VXpZ6_skWSKUqR0kSdl_e5pcz-VKa2xXxuV-mlv73z3AIsXAuVNx0xsY5sXntoPs3Q8NO7739uXqYyEupIxZ32kyDK
+sXqcyEumYGyFa_ZBCJwNJ-f5oS7z67y
+}
+
+GCPEntityColoring(Cloud_Routes)
+!define Cloud_Routes(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Cloud_Routes, Cloud_Routes)
+!define Cloud_Routes(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Cloud_Routes, Cloud_Routes)
+@enduml

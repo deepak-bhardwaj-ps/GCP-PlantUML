@@ -1,0 +1,36 @@
+@startuml HelloWorld
+!includeurl ../dist/Common/GCPCommon.iuml
+!includeurl ../dist/Scopes/Scopes.iuml
+
+Scope(Boundary1, "GCP Components") {
+  Project_Zone(project1, "Project Zone / Cloud Service Provider") {
+    Logical_Group(lg1, "Logical Grouping of Services / Instances") {
+      Zone(z1, "Zone") {
+        Sub_Network(sn1, "Sub Network")
+      }
+    }
+    Region(rgn1, "Region") {
+      Zone(z2, "Zone") {
+        Firewall(fw1, "Firewall") {
+          Instance_Group(ig1, "Instance Group")
+          Replica_Pool(rp1, "Replica Pool")
+        }
+      }
+    }
+    GKE_Cluster(gke1, "Kubernetes Cluster") {
+      Pod(pod1, "Pod")
+    }
+    Account(acc1, "Account")
+    Optional_Component(Optional_Component1, "Optional Component")
+  }
+  Scope(Scope1, "External Scopes") {
+    External_Infra_1P(ei1p, "External Infrastructure 1st party")
+    External_Infra_3P(ei3p, "External Infrastructure 3rd party")
+    External_Data(External_Data1, "External Data Sources")
+    External_SaaS(External_SaaS1, "External SaaS Providers")
+    On_Premise(On_Premise1, "On-Premises Systems")
+    System1(System11, "Infrastructure System 1")
+    System2(System21, "Infrastructure System 2")
+  }
+}
+@enduml

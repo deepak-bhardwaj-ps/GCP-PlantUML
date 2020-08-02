@@ -1,0 +1,13 @@
+@startuml Cloud_External_IP_Addresses 
+
+sprite $Cloud_External_IP_Addresses [64x64/16z] {
+tPP5WWCn40FDtFz_xlAWvOcylgLkWGgq359lXedvWMXUw55U47bz_WEi4DYnNnc_3dKl57xaDyvlcXZU_0YDq1ZaPzxFG7SoWIMpupCCCaMuwHfcnsUOP994
+PCTdM6HCZHkN4HSskp2OiOFPyNxjdWVBM__wMgHrxmlRUvwotNtP_2x3HFimGokzRzl6tyTfhJV_dc41lYVczvUXbpd_dc5RyLltNE_Ni56bmvU1JrBQcjyu
+locbiP-n3yuhw1UtvdjLflp-URFYMtJqaVvs1cdUnsTWu7ry1ZVQntU0wtpjhrZa--xutdp8mnre_kExqVLL0o8-TG0jqnZc-kOxqEpzJTONlWEM6RtIzOtl
+m6cXlqrcg97FPnWN-xCQuFZiC8NE3cFux3217nucy3f6ntodxEHer9ln2G
+}
+
+GCPEntityColoring(Cloud_External_IP_Addresses)
+!define Cloud_External_IP_Addresses(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Cloud_External_IP_Addresses, Cloud_External_IP_Addresses)
+!define Cloud_External_IP_Addresses(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Cloud_External_IP_Addresses, Cloud_External_IP_Addresses)
+@enduml

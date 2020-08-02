@@ -1,0 +1,15 @@
+@startuml Profiler 
+
+sprite $Profiler [71x64/16z] {
+bPS7TlGW30ObYWg6-n_tBpnUmB5eavvT3-MZmeUWJrxnY8SjcCeUWHrFEK5X3PSp8gnmvP0CAxISmZ0db7Fmhd_lUvdA3Hucv7B30pPIxeZdOT-7hkKMDiE-
+1u_2Vd307uLEsuby4ZhchKOFGfUorOZbYGTXAmuu4Ts5def9aZUf13P2tuQTLOIPHHh-cmKUp6m923M1K5NEo5ItCviGEex5cVteUzWMoS6RLh5Pw7ApBA4a
+EtItic0W5ew-MqII6NgQhqb8GqOL4SF3qx1ThQSCKDMGwS79oYdTGjx7xa6fFEM5JYlJdeXGgSO0_uYc1yNCkZxGdkoTWbLeUQBPmTGUf37eLZMnFAoprSZN
+uZiamlMdvI4g1jZQ10Ek_Ht5y0Gi1grKWW5ijGloGnu685zhEddeotpTg4xkGvvkk_ZZ2PD5Am80RWBldWILC1z-VZByEfgBc-v0Q4s6sEHlLA3XDbCpS9_Y
+yi7r6jiBXPyj52EysdhJxsKhzCQzK1YWsIBg8eimUPXO96wE9M8jvnzqUqXA26-yVF40krqyHnXm90P71qYDBKtqfaJnx3YRH9Y8PGB31yosPu7QH_rRJmIB
+vzAZcslGeSU3JIecZzZSNX6VQTWsSk5Xc8BbsAEmW8uz4LRaGu_2ab3EF1xMy967O0VjswKH3eYYDYrfI_8N
+}
+
+GCPEntityColoring(Profiler)
+!define Profiler(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Profiler, Profiler)
+!define Profiler(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Profiler, Profiler)
+@enduml

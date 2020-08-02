@@ -1,0 +1,13 @@
+@startuml Virtual_Private_Cloud 
+
+sprite $Virtual_Private_Cloud [64x64/16z] {
+tPP5keCn3CH2lnto_O_x6AT9c_cyg_OgMA7mP2HjTz3qG5TxW18w_G7P3iXxVvpuOwjVTiIry-UPF-F1yFWH9ZichVnsxhU5NemW7xJZ6efH2EWHsh4Dgv7K
+WtRd3JllztqxM93wFIFxHu5sjxx0hA4Xj6Dz4_nTw6Vv88EF3UlEHzODit4-DkncpF_7XfSHFbAMXvP-p4naV8KI-PYbBhR1Rj_9_s_Rxi-h-_m-VVxq-itv
+-ujpVgkjNrLp2AhV_LH3oAfrUOucp_h9k7tuzHkYS_y4SUpV3wRl_0Y5_V_uZkY-ynCRngFpEpkkBtm3HEVzXGtvDn1xVzFF5so7TD_x1HloR-3gUB-H3IEe
+P4Drlf_3XiAsGphP3abiEqJOuI72waZKTaF_fcaAJyOh
+}
+
+GCPEntityColoring(Virtual_Private_Cloud)
+!define Virtual_Private_Cloud(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Virtual_Private_Cloud, Virtual_Private_Cloud)
+!define Virtual_Private_Cloud(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Virtual_Private_Cloud, Virtual_Private_Cloud)
+@enduml

@@ -1,0 +1,14 @@
+@startuml Kubetnetes_Engine
+
+sprite $Kubetnetes_Engine [64x64/16z] {
+  tPPNhYmX34IB30RlVxalNAI9PSQZ_hldj_kGIXZZbn7RED0YpZJzGBkcdmT8wY31P7hy2OkYBWeCbizVmN5utnzXL3SHXE7t1z6pVa5oPkVFiEfNL3mJQ7R-
+  3BjIUWZM5qTsaW0WokSCsI-h09l2DYSVici0uiXPed6w-PJT2DlAUOz4Zc7QsSsqLxrzNHL0cbQ6WMnydzhsxmEI34bs0GX3DoazR2ZG3DFxlkej_eUTLs2o
+  3ENTN_T5txUotdtPHOlx1JSAzNU6o_BNBU2yB7-Xgk7djZU0ADgpuMiHoq-8GqS8NIKYMRuiszyBdncm_NNq0H7Ww8-pFyRPbtpDBn3kDppwQDoVG6J-YAZb
+  xfUAE9YV0FHtF_sSlCJjHr5T6UdT7-pwpljRrCCOeT__fVS7zN1_rphStqRURLfkplK3sQXVP43UHuXPFrKTzHFHhD-gdlgDRhqVYMoSz0116TFzVg5--tus
+  rdlvMHVQ5zu3ohN-1V5Y_uH-hNz3yFi1ZEhLsyN-6GRPdnr7tDbneZyxJlKV7gTUqu7G1aD-62tYb_4N
+}
+
+GCPEntityColoring(Kubetnetes_Engine)
+!define Kubetnetes_Engine(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Kubetnetes_Engine, Kubetnetes_Engine)
+!define Kubetnetes_Engine(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Kubetnetes_Engine, Kubetnetes_Engine)
+@enduml

@@ -1,0 +1,14 @@
+@startuml AutoML_Translation 
+
+sprite $AutoML_Translation [64x64/16z] {
+tPP76kim20P1NHZT_xYl977_JV3dNMRhAeP6FqQetQ06igdZ2_NPu_OBud0GwP9fE9ZeYZnSPBf0XmjbH_3kXp0CDu40VRZfT2QD6oIdEx_3CcvHQ0z3Ttw7
+xVY3VOUC8yrs5q5q38U2tcvNbbZkc8wO3YSSNJktfqjt-d6o4Ys7hF3FkiCXT2VUNjJmZS6Tpm6ws_OYkwe5D2tbkHV9FoZ8FwmwL1JLbw-J_7D4bGgqog_R
+5-O_EsT15jXSE_GDEgmeaZShOTR1yqCJIdHLbDRJeYANvOGHoT9-UkCsd-DQsXsE64dWcBezSZApAf_-QAD98d4WRklCEDaoybp3wtVJgy0KLrgSomUHahoF
+M6Qj3SqHTlVxW2kjU7O69AzwvtQ7NLBDqHTv1NycqumuPZnmPur-EiBMY6dVjwnkxG1iJsZS9UtnBNs7VedFtVdjN5_yEw0ys5-0m_ixS7ksln4FDqo8ujzV
+CUfsXqaFzdU_Gw5BWjyTfhY2z-G5XMouTeIyw9Nfn_WB
+}
+
+GCPEntityColoring(AutoML_Translation)
+!define AutoML_Translation(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, AutoML_Translation, AutoML_Translation)
+!define AutoML_Translation(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, AutoML_Translation, AutoML_Translation)
+@enduml

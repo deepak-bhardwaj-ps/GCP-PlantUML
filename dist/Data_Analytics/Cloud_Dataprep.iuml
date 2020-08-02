@@ -1,0 +1,14 @@
+@startuml Cloud_Dataprep 
+
+sprite $Cloud_Dataprep [64x64/16z] {
+tPP7jYin20K1PGJxN-uFBpWYGH_DN1F7wq2f0VWmg8qDZM1FKuVcnKy-86c014kc1fYmecY80Wj4GmW6YdUzXAHX20o6XXb6FEi5Kj1Tt67LIrHu1XrtdiEk
+9ep8Qj93xXY08mxvUfuTTrvUyzxTwFALp-K_R3ZSkak8AFSVMJSEqJoXegdkyu9hTmDLIzddjQ-Rbc3Am4vUQUrEQk6l-j4NO-cmg87fptOe9tan_rZFLRxl
+901AT_BK5meRSIYKlbx4xFKe5gEgJUNhI0ApbnSZduhoLrcm-_bX5Gs_oz81lJndgwfZwXUp0kHofyhxBE8JVnE0Jl9fsVfcpkChZuYqdIEe1eAvmb26B_Pp
+hBhNhpD7nVhZyw5_E3CWsqi2oJvVjkrxydVzSwtDcu5qsB-XEtbl1y33-GNrwlnipkxb80VhYxq3yjd-0dIuFq4_szy0DGo2HTKWxN1_XWKvxiw6m-viAExE
+fiQBPrFz-1viOmNpQ0GVnby
+}
+
+GCPEntityColoring(Cloud_Dataprep)
+!define Cloud_Dataprep(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Cloud_Dataprep, Cloud_Dataprep)
+!define Cloud_Dataprep(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Cloud_Dataprep, Cloud_Dataprep)
+@enduml

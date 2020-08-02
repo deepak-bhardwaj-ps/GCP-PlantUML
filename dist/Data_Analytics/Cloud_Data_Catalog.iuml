@@ -1,0 +1,14 @@
+@startuml Cloud_Data_Catalog 
+
+sprite $Cloud_Data_Catalog [68x64/16z] {
+fPO7ekig34GbC5sp_-N-_wgvPS3e-QItYHAEaUGheVQneTSWJnGyKdqHd28x8ew8ig7ZY2vh4WwvP8dXa24hCex9mb73CUPOL-VwAboe41fSLAgNatYWbr-q
+2mIdQ0DkngbUlM99EhBSaaWSPw8LK9hkYymxlUfF-hrylTMVR4Mhr9yqCwvfuKAqGE9PHi0tmaglAX9AAMrcj5AApdedRQMN_YbxPlnD9iPplShzvX7b1zhk
+kkj2j4JB-4DLkMpMhGlHZFn4t5Z_f5IdecNsN-U5KO4-hSHExZul0p3wZL5qu1jTvG8ZiUHHCAulBvGC50EZsNBNJeQR4KMqWjC7goF8z0Ap4LnsjCLmWQUl
+Z1BUPqHfRpEwI7YR4MLtGAUl6MFLxzGM-sYPAcRvGHWWhBVSB770whru8qe1esmQWm7rxoigmM1WcEx7i2no_RdLv-umGD77kS8U6tPzd2kkpU30rtJVjGCu
+vXbZ6k2daO7EIs23vTkfpk15dOCsr-jj8IQ411T96Dqt55BYgodPBrgN1S6d5wUwzEBeF-lbDxx83dFfnOdcMbTEU3Hj17aafh8XaoB-1m
+}
+
+GCPEntityColoring(Cloud_Data_Catalog)
+!define Cloud_Data_Catalog(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Cloud_Data_Catalog, Cloud_Data_Catalog)
+!define Cloud_Data_Catalog(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Cloud_Data_Catalog, Cloud_Data_Catalog)
+@enduml

@@ -1,0 +1,13 @@
+@startuml Cloud_Test_Lab 
+
+sprite $Cloud_Test_Lab [64x64/16z] {
+tPU7RiOm28GPDl3-BzpTeb-8u42rycbbZplEDl0qY2-WycwrIvJW2hOIXXnKAr64b6q7xFpdxOXK0h4Zf12lAw7Q8TeNBvSGxGRO4i-HddWE9U9r9LnsarKM
+VXs3t3lLk77X8SMGayQD867Y7Q48qij6V8j9vfs2c0cyR7oHnK1xzwjxr_b-i-NUHVtYHkBXjZRRlwe79RbJFOq1MyIhvUktVIF2aeMJVCED28XQmDtsZPz2
+2EZq_kdtf_hPcNuWDa3dzGExNp_RyzEg7opoM-Y_Yl6ZyXz-uDxzFerBv_iL_i1E_L1dxdVsRFuo7C-Vy_cxltxWuVfbk7wYVrc_jIKShbyNZ1QmEbw_PyWj
+xveUuh1_clLltEeVrpTCy3JU0G
+}
+
+GCPEntityColoring(Cloud_Test_Lab)
+!define Cloud_Test_Lab(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Cloud_Test_Lab, Cloud_Test_Lab)
+!define Cloud_Test_Lab(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Cloud_Test_Lab, Cloud_Test_Lab)
+@enduml

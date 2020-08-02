@@ -1,0 +1,14 @@
+@startuml Cloud_Data_Fusion 
+
+sprite $Cloud_Data_Fusion [71x64/16z] {
+hTRdqXiX38NXGvTOTF-NcyQCvHY1qIJF_ts_ShQ0HUPdd3oSyLNeybqF-EAH6m_EcjmXd4Iv5N70SgjZBykzxFt_sWPsgdXKsC8Gbm0JYG-vnxOb6BfuFTwn
+kGjFNTuKB8OS8BVN47mQlSevK_7IzIVEk0hoRb2PQ1HQCeMr4myFqnDULn0AVsOIQuVnBYrFhsQ8bmnf9st77lWxGpm-CyJMwCMw7JH3l6IqKwonxGoLIhz4
+pMXd1ElDQMUc1Cref-dOPYQcrAYq9PEPjAEBy2P3HzhfElPLfiG_2dzqil7cz6IeloweSf4nQQS2mvMnEmDLV1cxKzcPiJlzkSxKoUoCVfjfTdns7hhDK9d8
+y72ypTJuHs8oPF1bfc3gj68W_8TC1j1scLpUnKD6Nrf6nc1cE1glK7-cOUh_b67hy-BFbDt9CM0li_NBJE7-qBjKqlvKpJd6OD0NdpeTIpgRrWW7g7NqJdUQ
+SMJpTnXAHtTtYd6SzNSOYo3k3YUighy3ot1sEC1InDUfi7LNXx6HnDF9s257Xx4LvBh34NlrleEJSTdXW9CiTvs2itRNmJTrVErmmuNI-8GgLZy1
+}
+
+GCPEntityColoring(Cloud_Data_Fusion)
+!define Cloud_Data_Fusion(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Cloud_Data_Fusion, Cloud_Data_Fusion)
+!define Cloud_Data_Fusion(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Cloud_Data_Fusion, Cloud_Data_Fusion)
+@enduml

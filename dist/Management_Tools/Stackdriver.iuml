@@ -1,0 +1,14 @@
+@startuml Stackdriver 
+
+sprite $Stackdriver [64x64/16z] {
+tPP7WYuX20R57E3-ntrXekEdjCpohsNdfaZknV2bAHJlT8eyK0otcnyGv8BWZWovOBWJIQv8xW3B5KmNmRE7qCirsoneSarpI1G3uS6TtM4M4tcvdS2TpM4L
+8rLnPtVOzSSNGRhgZjm4YNJCZgYuosjcHS_WyEoErwxGYChH8U6dhPdbYOZHuS5TNpEhq3_ImM7GrH0BqniTBxnmLqKIlH6s3fEUcbwaqmTr5oZMtNMHG1-W
+GqPtOssfbRv0XwdhhO65FNqp808i3sIQm63PxezmVuFhmypZzyCJHvZ9F-ANCNwOFYNCwFx6flLmc8bg_eHT-RGmqvJyRVloJM567ke7Kx27cRBKByvHrXr-
+z8znBBIeXp0j_GltY6U7qMip44_6nU5G-lULGtq7837ZjV5jtu6iyzkslYZkzWxjEwYtxKz8_Ut-PdT8RaUskKFOv0w9DdT8Dxb3lDcTFOJ5QMJRxGYLjgN_
+fnNlNeo_
+}
+
+GCPEntityColoring(Stackdriver)
+!define Stackdriver(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Stackdriver, Stackdriver)
+!define Stackdriver(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Stackdriver, Stackdriver)
+@enduml

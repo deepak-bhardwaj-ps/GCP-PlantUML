@@ -1,0 +1,14 @@
+@startuml Cloud_Resource_Manager 
+
+sprite $Cloud_Resource_Manager [64x64/16z] {
+tPPNkeKm28HD0uEm_-NUUgeE2Nw-dNaVKdxQyc7At0VYFB6pJSJNxEC0nG8gld-B-3VNtYoavlarvjSK-BppNvWjh8pyFUxlm5xjX4gGNPmXsIdHpfuWkpZ3
+rP2KKo8SUPspszhjPxSfGx63fBxK5M0hGtPzHoWV7rXTTieWmnEfnv3yhydP_sIwHtRPLZNJvpq9CrmzVzabAq66nJo_x7wQ84Dn_NQJwnVOj6ZNZnJxRmpL
+z_EjtVX-HNL7xtaXenfjCgpDrdiRrhWeQe_nwQGwAirSYMeU5RaEAelk_q-ZAWKn_yz-kPd-tm7E8d6wgnv25jX7CmRGZZEFyKahV00TGogU8yaEgiZVl1v8
+u5dW_kg2LfH2VNTHzcS0O5ZUQ0ly_EQrxnlnzUNqhACPc0q6Q7ycRT1kPJo-jFprRANqStcTx039WEvJ836SN_Fn_NUsCq0vjdk969HUM5_m3YWNzXV0yFmE
+l5xRtp13BBp0KjJE5_VdnL6DiyEIC3ki76U7HV7FmwAu7Ijnnv8VTSxBX-aR
+}
+
+GCPEntityColoring(Cloud_Resource_Manager)
+!define Cloud_Resource_Manager(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Cloud_Resource_Manager, Cloud_Resource_Manager)
+!define Cloud_Resource_Manager(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Cloud_Resource_Manager, Cloud_Resource_Manager)
+@enduml

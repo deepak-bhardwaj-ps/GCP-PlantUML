@@ -1,0 +1,63 @@
+@startuml Scopes 
+
+GCPEntityColoring(Project_Zone, #f6f6f6, #f6f6f6)
+!define Project_Zone(e_alias, e_label) GCPScope(e_alias, e_label, Project_Zone)
+
+GCPEntityColoring(Logical_Group, #E3F2FD, #E3F2FD)
+!define Logical_Group(e_alias, e_label) GCPScope(e_alias, e_label, Logical_Group)
+
+GCPEntityColoring(Zone, #FFF3E0, #FFF3E0)
+!define Zone(e_alias, e_label) GCPScope(e_alias, e_label, Zone)
+
+GCPEntityColoring(Sub_Network, #EDE7F6, #EDE7F6)
+!define Sub_Network(e_alias, e_label) GCPScope(e_alias, e_label, Sub_Network)
+
+GCPEntityColoring(GKE_Cluster, #FCE4EC, #FCE4EC)
+!define GKE_Cluster(e_alias, e_label) GCPScope(e_alias, e_label, GKE_Cluster)
+
+GCPEntityColoring(Pod, #E8F5E9, #E8F5E9)
+!define Pod(e_alias, e_label) GCPScope(e_alias, e_label, Pod)
+
+GCPEntityColoring(Account, #E8EAF6, #E8EAF6)
+!define Account(e_alias, e_label) GCPScope(e_alias, e_label, Account)
+
+GCPEntityColoring(Region, #ECEFF1, #ECEFF1)
+!define Region(e_alias, e_label) GCPScope(e_alias, e_label, Region)
+
+GCPEntityColoring(Firewall, #FBE9E7, #FBE9E7)
+!define Firewall(e_alias, e_label) GCPScope(e_alias, e_label, Firewall)
+
+GCPEntityColoring(Instance_Group, #F9FBE7, #F9FBE7)
+!define Instance_Group(e_alias, e_label) GCPScope(e_alias, e_label, Instance_Group)
+
+GCPEntityColoring(Replica_Pool, #E0F7FA, #E0F7FA)
+!define Replica_Pool(e_alias, e_label) GCPScope(e_alias, e_label, Replica_Pool)
+
+GCPEntityColoring(External_Infra_3P, #E0F2F1, #E0F2F1)
+!define External_Infra_3P(e_alias, e_label) GCPScope(e_alias, e_label, External_Infra_3P)
+
+GCPEntityColoring(External_Infra_1P, #E1F5FE, #E1F5FE)
+!define External_Infra_1P(e_alias, e_label) GCPScope(e_alias, e_label, External_Infra_1P)
+
+GCPEntityColoring(External_Data, #FFF8E1, #FFF8E1)
+!define External_Data(e_alias, e_label) GCPScope(e_alias, e_label, External_Data)
+
+GCPEntityColoring(External_SaaS, #FFEBEE, #FFEBEE)
+!define External_SaaS(e_alias, e_label) GCPScope(e_alias, e_label, External_SaaS)
+
+GCPEntityColoring(On_Premise, #EFEBE9, #EFEBE9)
+!define On_Premise(e_alias, e_label) GCPScope(e_alias, e_label, On_Premise)
+
+GCPEntityColoring(System1, #F1F8E9, #F1F8E9)
+!define System1(e_alias, e_label) GCPScope(e_alias, e_label, System1)
+
+GCPEntityColoring(System2, #F3E5F5, #F3E5F5)
+!define System2(e_alias, e_label) GCPScope(e_alias, e_label, System2)
+
+GCPEntityColoring(Optional_Component, #ffffff, #4284F3, dotted)
+!define Optional_Component(e_alias, e_label) GCPScope(e_alias, e_label, Optional_Component)
+
+GCPEntityColoring(Scope, #FFFFFF, #EEEEEE)
+!define Scope(e_alias, e_label) GCPScope(e_alias, e_label, Scope)
+
+@enduml 

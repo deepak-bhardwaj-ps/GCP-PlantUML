@@ -1,0 +1,13 @@
+@startuml Partner_Interconnect 
+
+sprite $Partner_Interconnect [64x64/16z] {
+tPP7biKW30IRO64mklzn9-TfzD3NphKlfp8Wt8pSka7Bi6cgDYscsnSeka71aaitkB3Yq2qEB9YwnKmR7y__2RDkaq7ekaqdUbK7PQEThw6e2_cZ9zBEq_1K
+9wVHpjzm_Brw-yVV9nnMEn3q3vMqy_YNqKu-A2aL-O0tjDiLeDWDUJlkyuP57JvfE5RVxjl79wJXeGwVD9mHVq8qukinz0T3Nh1yUU6tCSaVGNt-jysetuFF
+NuFV3oFYNq29-0N0wV3PEPA2wmVYyEav6ja_-D7NFgWfrVQ1CKUCsFw9yeXVZEEhoJ-QDGEamFd56lfd8E_v7HXV-0muOlCBSd1-mXcOtvmD4nZYQ1UQdx6W
+-jl1tt1WINQqeuZpu_al8B19qWdZdTuIRiOp
+}
+
+GCPEntityColoring(Partner_Interconnect)
+!define Partner_Interconnect(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Partner_Interconnect, Partner_Interconnect)
+!define Partner_Interconnect(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Partner_Interconnect, Partner_Interconnect)
+@enduml

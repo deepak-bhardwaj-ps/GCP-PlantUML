@@ -1,0 +1,14 @@
+@startuml Cloud_Datalab 
+
+sprite $Cloud_Datalab [64x64/16z] {
+tTO5TZCn40DW6TOuklznVsmRiWml3_ELcooD38CFutETo1vpcGjv__3p4mHk290wDtGe5xTS48nRp6qKxxo4djiy1kgeLjauKF4gZhDA8iEzxBAhcnac7abu
+v8n2YdqZmpAvaED0sSmk0LXds3XIa6X1bB2fx6uI8hMuddVLg7MHtN66ZXjKXZgxldo-8XOjSRp8i541RjzbXXTtZjSPsZl7sooxZ71R0uIhKR6lklNPFJRJ
+fyP5vZyy8XMpIMsDJC0q8wkKsUPR8Jo5fcwjmDsVgyY7R6firuTfAiUeNqnz-rz2lOwNyNcx_FkcgkaRaKY_x0syM3uQd37ZM_fZb65M-tP0eJtkZ1b1xW7n
+zVXCmnEl-uWs6di9_watzScf8oBfvljpd6nV1iGhk1l0L0ymp30jcni_txvBVb1MFP3nY2tQb_CUiF50VwDzKprmuRQA0STj3YE9c_AR_JE4k9kTqiwpEyym
+G4k7nJi_GSQSotMW_LUpnuVv3G
+}
+
+GCPEntityColoring(Cloud_Datalab)
+!define Cloud_Datalab(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Cloud_Datalab, Cloud_Datalab)
+!define Cloud_Datalab(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Cloud_Datalab, Cloud_Datalab)
+@enduml

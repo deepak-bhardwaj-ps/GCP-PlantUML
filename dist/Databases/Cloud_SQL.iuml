@@ -1,0 +1,14 @@
+@startuml Cloud_SQL 
+
+sprite $Cloud_SQL [64x64/16z] {
+tPQ7aaCX24KHkm_-_tEtCgdS5-BqdDrqAsT4wCFWFa_eJETqVK4FTDyU86k0J9130no4g1gY4a0qXAJJuEs6a3KCayFKCDFfNlGDygOxxB3fMpIw9m5tKOS3
+DAiL33mYxaOYeXvmk5nBrYIvPjSBTqUX2zcJKyxSIREva-cH4uVDtRWTYMu33UWmwHEsBVbtG7z0XyFlpqkD8xlzTS2aPRCRKlp-oiYTnULkdy1XLUmcZMie
+2sWdwh6O_c2srwKUWi_Tj7c1FAFwu_AqVL_Yi5WzbgW7KJdC_EMTUWZgJrH5TV5b9Q3_1FrjrnO9s7-Liok6rzL41GsNFsuswyLEy49vbDL1dlq9okEUMsho
+uAyJkaUI6xyqBlviCJ07DdH-pHyylntUsnPokKrb-0ueU_chulHzcPGva3-9O_aRty7ZD0VCbpL0shw_ZFRk_Tb1xHL4OFcoMmEkhVe5EDofWSTU_OOTOX9v
+jEtwrP0DTniEAo5Mp1s4O-umRJjuHjlkRgG-VTOFipDz6Dy
+}
+
+GCPEntityColoring(Cloud_SQL)
+!define Cloud_SQL(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Cloud_SQL, Cloud_SQL)
+!define Cloud_SQL(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Cloud_SQL, Cloud_SQL)
+@enduml

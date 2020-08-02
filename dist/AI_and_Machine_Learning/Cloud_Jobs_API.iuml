@@ -1,0 +1,14 @@
+@startuml Cloud_Jobs_API 
+
+sprite $Cloud_Jobs_API [64x64/16z] {
+tPQ54WCX34I3vWBa_p-txjqSOJhQLnSORZT6VqPasO4ZxSCwWVtBrpT8wY2HILS7dIoAkYXaCDJ520xnrYMCwYOIGDIDWELP5qXEx_mULbsYqZi1UkVtSDD5
+DeTtVW-RBjFctWsffR8e9a-yQ_cnVT_ti4wphEnv6D3Hu_c78gr92KIKXktXPgZBh_cMJ0yJFdpe-g07V0dHyAxVD1K-8Oyle8S5MNCxFDKJTBk4ZF-8XBbh
+Ieyd3KH8PkYTN4ubRwMbu09J6ZPMLEjRSc-uFhQ1rM-VwniEi_7hUi7rUVEUFnlwlQ-tzQDc-STldIL0fpjHjE9dr0V3Yf-4qwSHKGTVm3uIvldJ0bO_ckKZ
+VUGlL9_jlZtIlNvi9Tn4D7j0djQloc23ib---rlz_DwWpzk7yBr-WmtoOljYecBD044TS8Nz2tcuFWEjzk_rySLsTxq5T_Vuvf-1jz_cDmhg9X30xo7_E3-J
+GVPxXsdhtgrxcCYc-iN3LFzoJ60nQSAH_emZ
+}
+
+GCPEntityColoring(Cloud_Jobs_API)
+!define Cloud_Jobs_API(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Cloud_Jobs_API, Cloud_Jobs_API)
+!define Cloud_Jobs_API(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Cloud_Jobs_API, Cloud_Jobs_API)
+@enduml

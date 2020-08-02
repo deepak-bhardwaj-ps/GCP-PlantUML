@@ -1,0 +1,14 @@
+@startuml Cloud_Router 
+
+sprite $Cloud_Router [64x64/16z] {
+tPP7jiCW34KbUX7xt-xdfoVesSfXbZj9lRBDeuX-39Vh0TcTw7cSaFVqum9-6F3OxnQ_GpqE4n7vOlE53OFt_H2wOSPfVhNxLT73-09lpCwUOHfVaJvq5d2X
+RikmeBynA52MxC1Lk1ioR5271PgIdQBZ0a79Jj5XWRva1_Hh0PmXG_suW33AhexHMskLBjJvTleLPEYLRAubvNLRA4h63cJ7L3xzGaxFC0xDf_Bk5tsEXMNJ
+aZxXwwW8Nv2BJauc7xuisILjIHGOTMpGf_BKeTy4-rIUEl9brw-Rznysns-PFZAvvtTrdlaj0NPzMZZh_F7wrkUCyxVIX3VN3oNZ-eNdg9pl7uT_2QVxbnpt
+4GqNm7e_Epw45nsTmGKKM7JG0_31-IMM7YIX0aZFjjvBqFV6ziNU0xQz_eNSPlz4PQz_8xRxJ1h9gkVD_fa0mPeTejcoWpXRTfXa6pnCikaOpbMdJMfsz6Fy
+0G
+}
+
+GCPEntityColoring(Cloud_Router)
+!define Cloud_Router(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Cloud_Router, Cloud_Router)
+!define Cloud_Router(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Cloud_Router, Cloud_Router)
+@enduml

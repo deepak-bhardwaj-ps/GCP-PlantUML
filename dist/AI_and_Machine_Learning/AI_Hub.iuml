@@ -1,0 +1,15 @@
+@startuml AI_Hub 
+
+sprite $AI_Hub [64x64/16z] {
+tPO7pkim38CbRslS_xXlfNr6K3fH4SoVtRM_3D63zCEK-hnGJpTuznlrP_Zr0R87bFUyHdZTujL3gZlUOhnne7ZVbp1vM0dnCyvFW1V_GYNeNTp3jkce3jNe
+B3ReL2Mg5l5mED3uruaxRBlrJjB_LhdpK6vkiTZduQ-yipRSDTDIC-WXzcuoKPBZyoqUm4FedRpEMtJT12f3WzvPFGrfAxHK3NauTcCxwV81pP615gsPEz7R
+TybPt0TZtXFmRXQtTXJSwjkxXda1YzOi_nhKlQ_wkWB-yD0GR-J6fzc1UQFcc3zFKTtmNcNB9sltlDYUTzUyUBp2sYNlNXSFLmARrtnxyvpLVNmSGKgGDtT9
+e7uaM_-QlNasTosWVagKDxnRutxmrVpbnGHxyTZmxffJ8SgwPi04-mXZthAuJ-QnPY2UFzJEV3vuvLJK_RXnp7UqRrjEygf_vtPUWVAvvsRvd5pqyCygyw9v
+xdA4V6pmo_zjFD2BxSF6udSxGBxUlfHbyLckCm33tQ_OmVEupI3DWHgtjclhaUnbXQZWbc1y4ObcG7cGNu27tsVWyIo_4STv9gGMnVl3_4mRbGVvFUwXq5Of
+xXrM2nNloG4QNOlx_9IyD3lJ3zDl
+}
+
+GCPEntityColoring(AI_Hub)
+!define AI_Hub(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, AI_Hub, AI_Hub)
+!define AI_Hub(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, AI_Hub, AI_Hub)
+@enduml

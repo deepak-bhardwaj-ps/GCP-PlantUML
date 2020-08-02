@@ -1,0 +1,13 @@
+@startuml Logging 
+
+sprite $Logging [64x64/16z] {
+tPP7WiKW3CLC1mVV_xZJEu-Vb_4ksYjD12mt8xRnW1PFz6OdD5w_Ve5a16dl7un_RFLY56NdJywVWVXurpzXD9g8_C7x0-ZPBf38Tdp3QfUeV_G0s_4D-_UL
+tr5xJD-rMzw7QQZGhx9WNoXin_kMOJlUFvPsX8yQ1kDzrB3lVAqBIqEqQQ5u-uRwVr_1faNx7msdnvzIpUDRqQsF-_r1fy-Vq8TWVo0_rJSIyVpPz_n5TEzh
+NLZtqUXSFz9zwrU2y_-Holju3vxGvy-0pFV3SuJIFZu38xb-yVwzDAo5MBz3Fa0DYUUF9yVtoVfjQFRYcUJumi-0wfjV93hd9-c--Kq2xmT1L5PlplbPDcI-
+7KRfTfZ8jyDK_kDXAgzZGXj_qIz6Yt8pdW4
+}
+
+GCPEntityColoring(Logging)
+!define Logging(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Logging, Logging)
+!define Logging(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Logging, Logging)
+@enduml

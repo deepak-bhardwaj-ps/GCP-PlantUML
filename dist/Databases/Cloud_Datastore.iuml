@@ -1,0 +1,13 @@
+@startuml Cloud_Datastore 
+
+sprite $Cloud_Datastore [64x64/16z] {
+tTN7WkGW38HX0K84K-__kZjP6sGlBj_wkt2gcUx-7UJ5v3Okj2pN6lwZRSpfFr2meSYf0niEELEnfSg9XIqhNVvux4-OiIrBO63R2EQA6mhPxhoXuHQJFoLl
+HpNikAd7xSY64xTDhfrJgfqxWdPKmmJ7DEmWzRE7bgOt0x3tqu3nVchKC6xt_QiKxLqBOBbtaxXXnSNU07lVAp0bRhYUx9Ut2_Uvrlo-JxMg850d0gPl9j3V
+pmxCzzCGc0kFhAVxyV3pAmAYjIRxUamMmEGT0bLcj9-0xkmFaVnaN-BRHwptlB4VVllozuyOI2ruRpFl00Mb1ezlxXsOGL3ozUNjNEBUNyxOTi8rNF8NvTgv
+IRKZ6nRvLoVQaGsJH8nhvnRLpYdNpasgdSjSEsVSZ-UCcxlKneavvsXPNiml
+}
+
+GCPEntityColoring(Cloud_Datastore)
+!define Cloud_Datastore(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Cloud_Datastore, Cloud_Datastore)
+!define Cloud_Datastore(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Cloud_Datastore, Cloud_Datastore)
+@enduml

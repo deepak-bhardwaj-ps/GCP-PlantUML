@@ -1,0 +1,14 @@
+@startuml Traffic_Director 
+
+sprite $Traffic_Director [71x64/16z] {
+fPW9hgD030LjUlTo_-kE-DFwqr6S5wCfxG5AnCLERpGnHvWq-igb_Xsz2CFc6Om9iZp78aJnB8K0wbaKM9hd0RdC0Uaf3t_2e9ZBdt6Xs7bMFZPKbtHixYXw
+DdR7zLekjWR_5KUV7b3l9OAYPs9Bi0X7Nw3411gXa_evwN980R611aNlZZM3YFq3_RXo8irU5KG7iTCQdnzZhnPgS7JnLxHGUQAHABRzp6nONkFrFVPa-alH
+enJMw7jiQ-SvlpKJQxm7iUKYkihjAROrwyiPQjoZX5nSokqvDCq1NKFxt7FbNms-VWbOU7iEJGKQCnZor5076ZYvGyFRenuXS7BjdwRyZ5oy50rNL3IvGsE5
+RX4JLGjskpg0YERMd5UM4UqrrenVZMkDFVhjoh_dkZNkDlZUGgBhySngzYOZVYHWUw9fRsjpU4N76WDtJarfOems83eVfH9F5IWwrYXw4iXh2dmkEPdeeIvu
+vS0t8ec7zqe76lcOOUHV5_O03CM6qS_LU_QzGO2dCuoTZhvWx7Hq63iV7SPEHuUnyz5Hx7nq71j7nmW1GFH4xEVH9s4q-nQEOSbOc03_yU7b3m
+}
+
+GCPEntityColoring(Traffic_Director)
+!define Traffic_Director(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Traffic_Director, Traffic_Director)
+!define Traffic_Director(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Traffic_Director, Traffic_Director)
+@enduml

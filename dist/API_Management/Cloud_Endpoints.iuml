@@ -1,0 +1,13 @@
+@startuml Cloud_Endpoints 
+
+sprite $Cloud_Endpoints [64x64/16z] {
+tPP7OWGX30J988tq_-_QDwUMbuRRrhqcKAJqPfGf_p3B2ttw2oQXqm-ela6D_MV7VqAz-nOzyctFjxmnUFmG5j-c85_sVG5wSu9ws2vkE9nY_D8pQCSqN4wo
+SBl3Xihx2jfHDD2EuS7j-8QPS533vOUiQDCIy4T3WeQAbbS7cux0XXtfgQ5QWXeQqYl8ZKRAqWZqpGTqZNIRttZyamf-GGty-zy5cgC76ECtu4lu_UiR5Ws0
+jilnIyhq0skmtCoV2fUFW2NTaIvW-RBh1xoBFKVjPlz0WyNU8_Hk_qpbQly63TaxGBuyl_Y64zoz2EpY-eBlW7hKBcp8tu7NGRl3XXdeHCDvUNzE0Ore1r6-
+7T-mffX131va43eaJubGbLdIc_41
+}
+
+GCPEntityColoring(Cloud_Endpoints)
+!define Cloud_Endpoints(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Cloud_Endpoints, Cloud_Endpoints)
+!define Cloud_Endpoints(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Cloud_Endpoints, Cloud_Endpoints)
+@enduml

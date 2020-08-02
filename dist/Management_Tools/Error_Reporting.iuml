@@ -1,0 +1,13 @@
+@startuml Error_Reporting 
+
+sprite $Error_Reporting [64x64/16z] {
+tPRNkiCW38CD8IPGy_wFUwOxGKNvkAlkEdvb20_vCCLStYZ72PxRH9d7pnjiZT26-Gl3No2-DqexuetZBH0lx_mhZ8rM7F65v-i0J-s44faTdw6sKz8NF83i
+s0mFyBlwmuRNnpjWTe_uxhWRm0ph64z-Mjq0PfWmhYB0887i78_sy4rqWt66Yl7UeCym07ncO66KtGEUSowjjVfWq6NODQqxdlwFLP7jRZ38iFRyCovkqFFL
+ZyWh_uAxmGllVx8ndpqNJpcFUVFiUbxbRe3vjbVCtmqmNmtpTmFCsofV5ky_BRu_gIlvNKJYoldP-jR7dryt3ulr8uhgLrMFUVsA6Dq_R3W34jk_3EmHbUkV
+XcPWfFgtuHby4FF3kkpk2lFvPMzt49tDJvliG6VdDxc-y3jWNTbV-WpFxy07ZnSPAF1ya96KnVFY_Yn0YSqEgNBPGKKkEopbNXwMSZXMoALNTPKSvSFq3G
+}
+
+GCPEntityColoring(Error_Reporting)
+!define Error_Reporting(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Error_Reporting, Error_Reporting)
+!define Error_Reporting(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Error_Reporting, Error_Reporting)
+@enduml

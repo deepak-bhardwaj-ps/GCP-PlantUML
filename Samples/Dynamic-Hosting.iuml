@@ -1,0 +1,46 @@
+@startuml Dynamic-Hosting
+!includeurl ../dist/Common/GCPCommon.iuml
+!includeurl ../dist/Networking/Cloud_Load_Balancing.iuml
+!includeurl ../dist/Compute/Compute_Engine.iuml
+!includeurl ../dist/Databases/Cloud_SQL.iuml
+!includeurl ../dist/Scopes/Scopes.iuml
+
+skinparam Linetype Ortho
+
+title Reference Architecture <&arrow-thick-right> Websites <&arrow-thick-right> Dynamic Hosting
+
+Project_Zone(pz1, "=Google Cloud Platform") {
+  Cloud_Load_Balancing(gclb1, "Http Load Banalcer", "Cloud Load Balancing", "Load banalce the traffic between the zones")
+
+  Logical_Group(lg1, "Zone 1") {
+    Zone(z1, "us-central1-a") {
+      Cloud_SQL(sql1, "Master Instance", "Cloud SQL - MySQL")
+      Instance_Group(ig1, "Instance Group") {
+        Compute_Engine(vm1, "Web Application Server", "Compute Engine", "Ubuntu Virtual Machine")
+        Compute_Engine(vm2, "Web Application Server", "Compute Engine", "Ubuntu Virtual Machine")
+      }
+    }
+  }
+
+  Logical_Group(lg2, "Zone 2") {
+    Zone(z2, "us-central1-f") {
+      Instance_Group(ig2, "Instance Group") {
+        Compute_Engine(vm3, "Web Application Server", "Compute Engine", "Ubuntu Virtual Machine")
+        Compute_Engine(vm4, "Web Application Server", "Compute Engine", "Ubuntu Virtual Machine")
+      }
+      Cloud_SQL(sql2, "Read Replica", "Cloud SQL - MySQL")
+    }
+  }
+}
+gclb1 -[hidden]right-> lg1
+gclb1 -right-> ig1
+gclb1 -[hidden]down-> lg2
+gclb1 -right-> ig2
+ig1 <-right-> sql1
+ig2 <-right-> sql1
+ig2 -[hidden]right- sql2
+sql1 <-down-> sql2 : Replication
+
+ig1 -[hidden]down- ig2
+' lg1 -[hidden]down- lg2
+@enduml

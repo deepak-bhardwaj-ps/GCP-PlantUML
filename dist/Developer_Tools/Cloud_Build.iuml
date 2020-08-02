@@ -1,0 +1,14 @@
+@startuml Cloud_Build 
+
+sprite $Cloud_Build [64x64/16z] {
+tPQ9Rkmm24Kntctu_zzzIkdRecl2A5fxsfdHTYBXwm3qm-0-7JgJJzS7-ZlTVq3M0FdixuY_ZthL4FNaIyoN53Yypu-GDGmZVyRz2VIY7v23sSKpRFeHxQOd
+KKZliGo78XOJfQc8yPpTBlH5teyPBh_42gfRVdOZFTtDucItCjtWYJB4sKaXGDc70jFvSgJnRnqRPpXE1s_drkWKmu1DQrdm9eYeIgNlQt2FYL5sDGrLxNm9
+pKv-vUjxfW8ohA0ziJrpfg_gn8hA8ES2cbQroY_1RcRE-wi6u0irXJvDRT-_ymfu4VIrBiStWpr_YUzlxUJvuljDXNn_UduIhRw_YkSFtUJxbTR9tyogbk4w
+-Pk8iN_bAZf-l_iT-VRu0NtYPLeLktlcWpcIi4zKBdFR-uDzHksZteP2F_Qv3kUsjF_wCj_QA9W11VSFgotHgN_KS_jUVFVJ0DavuwF_xpVGl_tn9UslN-HX
+1qWAsDbyNWhWmFYUhCeZj0E9VeIyM5_m3hZUxI_4B_Sd6k_sDqfnFn6YHVN-Sd-c0oMU7MQ5iyDmF3jCYnyUfiLrJEeJi8pPcNuOlm
+}
+
+GCPEntityColoring(Cloud_Build)
+!define Cloud_Build(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Cloud_Build, Cloud_Build)
+!define Cloud_Build(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Cloud_Build, Cloud_Build)
+@enduml

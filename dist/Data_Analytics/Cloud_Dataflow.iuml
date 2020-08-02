@@ -1,0 +1,14 @@
+@startuml Cloud_Dataflow 
+
+sprite $Cloud_Dataflow [64x64/16z] {
+tLQ7iiGW2CIE1l__Srzn4lFAejnawktrqqsGbHLwC_XI5oX-GozzWxAZFxb0w0O4dNzO-8TAJzs4fF75nXTdIDxhAVJT38_urSwlW1xx2mX6xUmQvluIyX-w
+at-tI0Vugcd8Q9Ca6LCJsbgyqQw5Sqkm-nvlQmt_3r_4xscEmN3RQvUNgOr0EymNhE56EtPJdBBKqA71DXOUYUBCdwOXWw58GpycOXdtYG8Yr4nhCC8nPd3l
+Hr1MwHNjlaEl8uxMndthTwX8GsnQTqxQTNL7X3KKoFVJQSgABrYxGsJMUJXdYa0lRL3wMAVHNDyYGva5_NbxiLoVIf70gEe_BzVvq3MpvpCIvquM-mpZZpkV
+39kpgAtqoqHvfTynPohxXxcl-06Nprrn8dSrAkU8KqxO95VzI5HEPw_PHpihRl0BpNYm1ulgdeaegGugRccVPNSu9MpV4t9EY3l_d1hYzV7MlubL1mNk2Ne0
+fpXebgwvfryVt_6RTOnrZgzgTZKDMwWprD3-XVUWVS4zO7lMlv1_s3yHF-lVoDdvZX2obLuUzi-a8DgrmsXcxJ2yNJkCR4yUHhRJCLof_z5ErEBfpV09
+}
+
+GCPEntityColoring(Cloud_Dataflow)
+!define Cloud_Dataflow(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Cloud_Dataflow, Cloud_Dataflow)
+!define Cloud_Dataflow(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Cloud_Dataflow, Cloud_Dataflow)
+@enduml

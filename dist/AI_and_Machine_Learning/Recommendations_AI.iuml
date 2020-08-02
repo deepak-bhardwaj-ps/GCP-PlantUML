@@ -1,0 +1,14 @@
+@startuml Recommendations_AI 
+
+sprite $Recommendations_AI [71x64/16z] {
+fTS7akiW48JX6J0617t_uxwmmLY5Mj3bh_A6VmEC13P9HyUTVYHR2WrhBTWzxzZHtMvLxAbsvu5T3xlHiAiPzyI-f_R_rV_B1Of2AW6QO9SEQ0vXiUL5xr1r
+csKGqg8xECw5OH96AuBgT_iYsaaJfeT_Ca7B38alTib3NMIwqs6oTwTCdJB8R9Xuvdjfs6ZLAUFjspa3mETCPSCqDkDlfc1KZ8nMMsOSGFYjsFLIFh7CcBzl
+_SlHScnap4V5Bf-dPIjZ3ZUMGR60ZSmPPg5SP_gttKnfcDcmcMduDCCx-JaK89yLp7e18Qa1i-X3HFSt6PUYLUb_4zcBpxKCVGtdzVRB-4OonVxhIeOVKPAK
+uU_EuwDC8_ytCHF9cq7BL7Be4pE17a7DB7xxoNZyTf79v1skRRzEJcnY9f7pewQHqwmeahErff2JliY5UuTw-sZGTELEfj_CwkTN1dtHWp5PMcokAvSxBacB
+pJLbcBWW3zCdcoVPIgXOEO9jyFYu4zrcVm4
+}
+
+GCPEntityColoring(Recommendations_AI)
+!define Recommendations_AI(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Recommendations_AI, Recommendations_AI)
+!define Recommendations_AI(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Recommendations_AI, Recommendations_AI)
+@enduml

@@ -1,0 +1,15 @@
+@startuml Cloud_Security_Scanner 
+
+sprite $Cloud_Security_Scanner [64x64/16z] {
+tPP7slKW28KFs51X_ylzwsq6pJLFPjyxIPV8eU67mQMUK1Zd5Fj2sV_y-WB1DWXOqcs3ZXN9jaXOeBQ5qeRphhkGRHl6X6hRL7YYNI1iQhUlORPBP8oGhkME
+zRk6Oai8e8UqJLvBYTFkr5VKp3e389bfsEm4BGH05A38BvtRKhlUf-vYX7zdzBWN5zefJNwdlLuZz453frsOYjcU-SKlQtcgdGpRSVSxSDHGZdBfIeVKX91i
+r32CPeOyLlquzpMEdNRrq_m_tP9-r1qESdHASgKfZ4b6JmFLXsa4rETr7iiSsGFlMHsbYX_HhBwmiO_prDpt3uFYmpE2N5Zef32cGv7azVUghZ0-ugbksTSw
+NWOWgXtsB-lzjsWFd4Pvm_-Mq0w281wzsTVwTzTpmqT420EKr0NBA9YSnB-DyHzcVOHiB_-YRr4yAHyocl7tVHzLb-Vp-jCNFI2wssam4qAMIODDY_BT2U3k
+UcLnsgtcfiu0OXitASiUx1zg-YTCAY92laFv6S3dPVWsdV2NzjrpE7kXxCnUsbhNC3El5yQNmfo_pu3jtlm2lZa_GUxDRo3RXZ0ZsoRbvloC1V76_BwlOSCI
+tjDkJTvotfq5CiwXN3tjGIs47yPl
+}
+
+GCPEntityColoring(Cloud_Security_Scanner)
+!define Cloud_Security_Scanner(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Cloud_Security_Scanner, Cloud_Security_Scanner)
+!define Cloud_Security_Scanner(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Cloud_Security_Scanner, Cloud_Security_Scanner)
+@enduml

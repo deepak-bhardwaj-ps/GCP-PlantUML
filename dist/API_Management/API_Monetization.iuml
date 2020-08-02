@@ -1,0 +1,14 @@
+@startuml API_Monetization 
+
+sprite $API_Monetization [64x64/16z] {
+tPPdOYqX28NjXS7zB_Uz1DC1Hvn_zwJSUYny2hWNKwXzeHfkx7NSg1hivW7Ys53K_TUE_rBjUMmfQtxSywFV29uzX65iAqZ-lk_lWZqDW-8XEvrX6IQLFtRF
+sDaOjZi3_DbVix7BD8NA4ExyV0umiGlyTYGBEonLPrZ6aSeMknpx-sGfeSQmtKs2OtWfI6qZQUKP7fbnk6TtUGfy5Uydx2Gj_FxFb5P92v2CCDSXCiO5kq0R
+XncWh8GvWpex7GmMFxv6HJZ9rialA872nVOphRZcYyvlaMVfuv4W2SXJUf-onV9zVY4bb8yNICarpEjLr-UNlXIbNE5cZi_pbWEzvvKytZRyI7wvZdYRd-V0
+OlFpEeecFwy1wIn-MKdVaQ3G-LtnkxI-2NF6z-2cIWai0PsfZ8oTLhxiFO2t-uDIlWzx86lzDhOlAZk5eRq73G_x9zSEs1qozCniObWVzizEKJAoEsC8JbMm
+iUCgnk3P1oXkBLyw4togL-zUJFy1
+}
+
+GCPEntityColoring(API_Monetization)
+!define API_Monetization(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, API_Monetization, API_Monetization)
+!define API_Monetization(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, API_Monetization, API_Monetization)
+@enduml

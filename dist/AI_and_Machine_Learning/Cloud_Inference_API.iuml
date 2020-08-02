@@ -1,0 +1,13 @@
+@startuml Cloud_Inference_API 
+
+sprite $Cloud_Inference_API [64x64/16z] {
+tPU5aiCm34G3Hjdw_yyzA2cJbQ_UoT1ro_02UgOi7vOjrp-IjpTurZV914vlODU9x6E-pV1jY4UTIXpnVOxlwqJn-19kEftDu-iyNnqyA95zmXtdC2cLTC9N
+SCSvB4gc3Dr9pd8gz-aRT2XgoL2CwBKj0NSShm7S8I-bj17Vm1towKOQxpfSbU7HOK7-QS7ucuNcETmL-HkPZ7yy5y-XC3mwZChmwB1VuVl97V36kBn6KKYB
+-SddU2YvX8gjkAkV3CxTTEGnTXR8uo6Lupb9BC_wfTIG5nms_VOxgjyYL_mrc3OuVeVkG_4LkY_TVt3eRwN8aRTH27lwUDus7jelp061ut4T8Jx_F7AVRp1z
+86z1Fi3qHV7LQ7HeHsvfjNPmHqtVwCx2pjyJonTk3IXNrY_ea5y3bslhDtGuZh-0JPmxJAVSOGBd3YEKEyp6kSCahdYOnE6ODLKlSWjSF_x_V0C
+}
+
+GCPEntityColoring(Cloud_Inference_API)
+!define Cloud_Inference_API(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Cloud_Inference_API, Cloud_Inference_API)
+!define Cloud_Inference_API(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Cloud_Inference_API, Cloud_Inference_API)
+@enduml

@@ -1,0 +1,14 @@
+@startuml Cloud_TPU 
+
+sprite $Cloud_TPU [64x64/16z] {
+tPO7ikOW38DbMi1Ozp_k5hPlS9upJ7tVtuk8nw88dunqZGUkX6SkVi1r9dyU83D0XijaW0cFoX0L3iOG9e7clMzXOfY43ODX1kuKlY07lOjxsFYAXdyHeqFC
+mywNz0-ycsFCVvuVFTJT9Ara0zhFz_-Z6-zyVUEDykJTqflzUNOyTBoR2V-Hvjr3txiKMHucM-zchHKRQgrpvs7UDtQQbMuBp8c5xihKlTvOOLoNAJJ0-sib
+R_KN0FsNQvfqwKkjS-EXySxwUql8AAC0bGRlZusEtaZGUW40y_IiIgT-8zFa6WfLdVgfHdhzO-cqL4J69TuoiITzpIeNoo3DrG-_VWKmoAoakVKNltyD04d9
+fDy_gAVl8cZhlRhw2MId_fOc5xEBUlNdpTQdjpr5fMEXktD4lFNp1vM7zOCMNx_xS_Hm_q29xLz-Zj2p_HEPDzfc__RFu1xI-nb0xjMfpd-UdrlS-9BBoLv1
+x22-x3EWdkKNfCFyX7wMto0C8zZHmjuTvcSub8Fy7lTGuP9YtlcqKFDE1cXuHjhOeOjra7uklW8
+}
+
+GCPEntityColoring(Cloud_TPU)
+!define Cloud_TPU(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Cloud_TPU, Cloud_TPU)
+!define Cloud_TPU(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Cloud_TPU, Cloud_TPU)
+@enduml

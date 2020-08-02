@@ -1,0 +1,14 @@
+@startuml Developer_Portal 
+
+sprite $Developer_Portal [64x64/16z] {
+tPPPkYCX28KLb58Azx_S7Z8IB8nqlztpal50oVy1fXycEFf21wIrZl55Hy0U3e1ZG-Zxpnt_wThhs5Br_BBdbxnHl7W9OMmBhlnztz_Jh382mWrsCOOqGY9Z
+puPTb66x-a-h1R7KTXMxVMF7gaR8NnZoLA1YwCWKVyMEyotjqPaVCoDFAOhFJcxT99yF8nD3drqt-JWddXaksB7vJjXds4P8bY6Qp3f38_gWpuRXpAxXT41I
+XZOnhEQHS0PKLC9c6Oev4Uef0qIWAmIcMfBeqwxyEILwvCZA_ncWybpFXrus_PtcPJatPoJXOjA9yWjShwFvQ-NfmmG0lglVq3uWzSUNsTW7bs42e6AJ-_rK
+HTKFpIvY4m1rVza60MC_RJm1L4ttiB_R6z3ESTi-KjLxoYbbKYMk5tiaZtyMcFu8wl3tDfgWX8iTKAxs6vwgp7Zrf-gERxcrRksFAXMRnEv0z6OZ888tOz6i
+hzK2mTE_0tWCcHwfWKwNtNfzoybyojOTABg_OzSNdvt3C7u7XUZzoQhzn_qjs8SvNOcYVMSbONQMOPnTd24dLn1bPqN1uiK3K5ehKx_KVQSTEVqm_GO
+}
+
+GCPEntityColoring(Developer_Portal)
+!define Developer_Portal(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Developer_Portal, Developer_Portal)
+!define Developer_Portal(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Developer_Portal, Developer_Portal)
+@enduml

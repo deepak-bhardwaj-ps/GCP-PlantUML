@@ -1,0 +1,13 @@
+@startuml Persistent_Disk 
+
+sprite $Persistent_Disk [64x64/16z] {
+tPP7ei8m30NbRYlM_O_xU_z--1djc2qP89eKoOCHsxX1YnkzsOR6w-TVa8mWOVzY_0lgnIWAyYVdpq0Cxto4qMZYoX-yFnPwjWCIsOvlMEs8-aSFe1tRiDiX
+dMZ7DzHpNs-rgx8VS0RjMFy27m4V7nICyc733lpw2qKDam6VRAZ8vneMmtw5v__TS7hyATKylXKr2EFhtFe9z7jZhdrzTzBsoJ87yySncXd_nln4FVub4Zr-
+OXvzs1_WzcNzY0QizHVWg2xlJD_pGpBdupr2VSzFYQxdDsp8xm3Xt8-RwHpkGAVlRt9zuNT0zUql4ftxa_GxsjtPCAnylc5pxiy2o6mxX7Bj895hXwdSy32L
+qp6XZGNwpcXH7end
+}
+
+GCPEntityColoring(Persistent_Disk)
+!define Persistent_Disk(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Persistent_Disk, Persistent_Disk)
+!define Persistent_Disk(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Persistent_Disk, Persistent_Disk)
+@enduml

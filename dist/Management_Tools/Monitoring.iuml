@@ -1,0 +1,14 @@
+@startuml Monitoring 
+
+sprite $Monitoring [64x64/16z] {
+tPPNekem30NZRYdI_hVxS7Zq4oph_Z5Vjp1f4onlFqPiz8KM9thJ2SsWkm-Gr40wztUBlv_gHKsKCrzileJ9m_CzmgXc8lB9xXFGiowGZEti3QikKT_q0DlP
+6tPTfEDspeQyxZDkPoV3TdPsr8vZ-4gapuO1TyNapuRTvzyQ9lNvjuRiz_bjqO9-qupyMqEP-EsM6laosc6VELpRIXq7mBuMnlw88l7Gut3IYS-2_QBILKjH
+ZTTdbB0ls8z3oAetRnm7-mJz_HWIIVxhr_j0Fh_ztlE0RYjiUFgEICaNsliiOkECQ_1pxqiFrGCqeN8RqCSQqF_s_cx1wz-Qr1M_W3LOddgs-inn-1S4p82i
+PunF6FOHxF7toVWG8Xe-4UqAo9FnnVb2IccyZxCzGD1b8XxVtZtGwlmsRb_iUq1spJxGqBi7xexzcxDXs13LtWuZvdQOR6-7ONCxJBItmrJxmyDKkuu9ZJxW
+6zJYzcFy0m
+}
+
+GCPEntityColoring(Monitoring)
+!define Monitoring(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Monitoring, Monitoring)
+!define Monitoring(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Monitoring, Monitoring)
+@enduml

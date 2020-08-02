@@ -1,0 +1,15 @@
+@startuml Cloud_Armor 
+
+sprite $Cloud_Armor [64x64/16z] {
+tPQ7ilGW28M3NSJtVzo_OEwO2SUDTp9rp_RosGu1ZY-Jo_M3idl0StzGViBV3E3xXloQRpjyM-AnRockUDdZXJOEx_T7wFgs7EBhFby17lelv3UzavnbpyE4
+_gLE1JHokk5af-5mdFBrqSFIRofEFIddg_tzatUIQSmxrq59FdZ8_QAMHZGtyCKKBxnhOxeijmMPempOkwH9g1iLTtEfOU_ICXAh-IVoBYslGr7UUbZwFWyy
+z1tprGSsFF2GCSy_6QNnacTDMfXFkZLz9S6yUYY8dsiJZPmLB_eDulrfBC_u0doFZ7Z5NPFUHPTHbpmBI8vDSUa3fpZmta2A5G4N9eSBxg-dNGnVGPGwYEl8
+Dic0ABlXaPno4KHcj4FI5J-h1OqV7CYZ7XZ04p-TRBhzXF9uiMF6YO_BdCRo6weZ10QLYTF_us0z5u_hMBAZXYiUVqAzBkges0KOlDhfXHQbhnbStxLb7y5s
+OIGJ7rFbTGtqe4MXDl7czDsw1XVyumbLcdl4FG3X9aaX2R2rSgPy0tD2hG6tHlcnzsgpVjiEG7RQbp5tuAqUa3kGb2ARFQXxsJyTvLt_Tj0-JmTIsiNpo_xv
+M2YywD-HXrXyBENslSDAMuVtPe1qV1QbYiIgckduClq5
+}
+
+GCPEntityColoring(Cloud_Armor)
+!define Cloud_Armor(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Cloud_Armor, Cloud_Armor)
+!define Cloud_Armor(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Cloud_Armor, Cloud_Armor)
+@enduml

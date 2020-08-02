@@ -1,0 +1,15 @@
+@startuml Cloud_Service_Mesh 
+
+sprite $Cloud_Service_Mesh [71x64/16z] {
+dPXPel8m24OpJy3-b_iFJUh5AoILxytf17DefBgFv86q2uxiZWb0vq0uK3pIaw3VOpezIzzI8ZrDt660dWQSdapFiz65n6BUvKhVf2gKGDybd6NRfKVwDl4a
+sowzqFV91zbcwOq-CbAiTAV5rC_IWq3XNxKgAiDHThfUe1dFNEhIawgJPjJ-Z2VPZIsGL9bmb5rUdBYv_lFvv0H_STBkZ4QloSO1dEF_K_3r6dvy-PaWx7vc
+74ufQrL1-lXLori7m1jbI0q_HDdZRJyZfr0Hcon9if5lUveKB7mxGP1UH8MhX3Y16AxgC2YzMaJPFIyvwQ9CMfwKa9ialP2GzObLozq_GJyY2v3EMPIRerDe
+8AcSHM6SI4eGIUKmrOkJzPb7Us5oukJWWJEK5v87LW-6kETawQY16fsxEN7MTNDY5Uf7gPdgxMXnO9fU7ArXktmn0FU-785JBmONj4kJSI9RzdFXA9rQ-FOa
+S0frgPekdw6LVP1PlvA4lV7AYGwj_wB0IyHe81dHXmbEyQmYmSXA8Yajk4cPU-ZhSQeOwZ0LySTNEyqu-iyghihrT_4qwoXmlENe_0UYA6lvyypM0ZjYYm_2
+5bVB1AdBrgJRxnk6VQ3LfTllgPfzsDUbd-ETd6A-4R9BHwSc6MNRfG-tIJ39jajlRX-mzo-F7qye_a2n_l7o5m
+}
+
+GCPEntityColoring(Cloud_Service_Mesh)
+!define Cloud_Service_Mesh(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Cloud_Service_Mesh, Cloud_Service_Mesh)
+!define Cloud_Service_Mesh(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Cloud_Service_Mesh, Cloud_Service_Mesh)
+@enduml

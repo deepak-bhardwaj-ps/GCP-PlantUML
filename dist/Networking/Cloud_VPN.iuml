@@ -1,0 +1,13 @@
+@startuml Cloud_VPN 
+
+sprite $Cloud_VPN [64x64/16z] {
+tPVNsiGW24G7kmZl_xX_htxAadYtv_viOU84yMI4sWrgW4tL1zGptVw0g0uYjWoFFx0ZgukC3UBpXSpXtHrXK3S12xhVvuMUB4769_f5kfWTuPEopR2ewSy9
+bqadyVcx39jUyxKPsHd-9aE-xhEPdUtF6Oux_fYoi-Yj0R6reUzC6P9w8EJDEMmtVMr6QHd-b27VztakBUwVYC_ND9NML4KZ0MaOlg3etX-Wd45ZxslcfP_v
+dKYYAeZy3fO-o-nZBlHirlkXB_tXxoVpzoThVlGnFx7c1pRp8oGnyXjJzV0Nwdz-qCwUNz3X-K4vEx-0dFK7qaDvC0E9MTPx17lxiwptc73OtsZN_Ou_qE7x
+2yNfRtSWkUOB9j8rFsE6p_ON1C_-9COEtDHDnmBo-uGLnQlNm_qP6zBX_Wu-kpyW7DvVK3p3ioXdEa2rB-1FUWruCbu1
+}
+
+GCPEntityColoring(Cloud_VPN)
+!define Cloud_VPN(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Cloud_VPN, Cloud_VPN)
+!define Cloud_VPN(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Cloud_VPN, Cloud_VPN)
+@enduml

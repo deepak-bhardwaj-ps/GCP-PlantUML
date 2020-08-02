@@ -1,0 +1,14 @@
+@startuml Cloud_IoT_Core 
+
+sprite $Cloud_IoT_Core [64x64/16z] {
+tPQ73eCm34IpXsF__-Ts1g48Np52iq_JQgw0BnxkpmYr_w264tcL4wfTVlqFeXY8M3yi-W7bMKnaf6URdhqXUTTJ6CHCqFJThYT5dkG2oUYTtSCYboXknGFl
+h1usS8m8V5SpU4Vnyrixzv1-VcFa4m_JoJKF33n4tWqQVQaifkCPw5rL2yGty7qUlvXlpUzHqJris9cw5blNJaRDc93zV6Bvl4Vswb7DkzbA-9jPMaB5momh
+lANa8o1QGiN3WxNpnSlKppmKzPgoA_grYn8s_Gpr3fVfM3C1wBKg8LQABkhwg9rbKQ1IMqblQarlIYk5H86xgD2qDSOzrA1qJvyTtT4Fr7hwgk-kmrdSGEkf
+kxw2wTQFvJjVDr5oOzEF6O8UM9G1ELwYjkdR354FvkDxLQdl393tGuHcY6P0KlEIvlVrRnWLxt3xRgMzloy8-pX3nRkpqU-pIFA66TpGaLRHLhJqT_0CdbMd
+4KpZUx1n1xewluthYtq7f1lx2_3Gl0DZ3mtUGGyntcaKgxpUt9yT85czGv3DEqYmUOSfjkHXYasEyRNhq8jUW_ipdW
+}
+
+GCPEntityColoring(Cloud_IoT_Core)
+!define Cloud_IoT_Core(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Cloud_IoT_Core, Cloud_IoT_Core)
+!define Cloud_IoT_Core(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Cloud_IoT_Core, Cloud_IoT_Core)
+@enduml

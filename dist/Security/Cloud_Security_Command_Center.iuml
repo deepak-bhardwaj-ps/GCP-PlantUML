@@ -1,0 +1,14 @@
+@startuml Cloud_Security_Command_Center 
+
+sprite $Cloud_Security_Command_Center [64x64/16z] {
+tPO73dCX38D9sEl-n_r7MY5Q32yIchL6vuSWpZCnFoQE-Q383tZi3uft-7a1snMoUxvg-Bh5VLV9x_YcunkfYuSLiVDTBKPyrlCPuAvtlQpIExs70TGvo9Ss
+zLNX2wV5k-hV3K66GdloC7rNo8s68gdEz_7IoRia1WrUPFF1m_9nR24-U16dcI_OE-bkm8jeteF3tX7WeKiLVgldXuVKDhoJiaJ6_F0mTSZREkmWoFU4Gej0
+JIiDVlMmBFowQiLy0Q55SnRb65-dY8WN3nlaPTN6usqdoBVbc-xiVzNtyGOKvUkqP6dfMoL5hfR3RrwHREsMpvVxTqksdke7zbXWD6B_6EJeiYPDUounpVtZ
+KOud5AsuVmkwHmWS03m_QFkyQMeHrya86D8H-rCt-S6xEy0jfi3yAk1l-1T6V41rmdDJ1Rp5Tp2kJ5buRgSPWC24C7Y8TpvVtuLctZxEGEiDxGSF9gkc65-A
+VV6-QMP056G2DjqCofVpaqbtyviXFKy6AMZnU3a_cutSnVoEFCGgPYlMUuSLLCMxMI2OioXaeF9IZcH-J7y1
+}
+
+GCPEntityColoring(Cloud_Security_Command_Center)
+!define Cloud_Security_Command_Center(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Cloud_Security_Command_Center, Cloud_Security_Command_Center)
+!define Cloud_Security_Command_Center(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Cloud_Security_Command_Center, Cloud_Security_Command_Center)
+@enduml

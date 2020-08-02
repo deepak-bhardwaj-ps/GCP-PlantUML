@@ -1,0 +1,14 @@
+@startuml Cloud_Tools_for_Eclipse 
+
+sprite $Cloud_Tools_for_Eclipse [64x64/16z] {
+tPP5jiGm30HbHjt_k1-6Ng0LTxPJQylGPP8lmvTsGV5oJT45XI-_tq5GWY0cGmc6M2IbI68mbM8w8hpx4NgbyG9eIjD0UTGR1D8Txp3hBRBiST0Txx3gJUhA
+tUWRni9XFytleDYVrjSltQLrlX6u0tw8DfdP7z5qwAZzASroM8ri-znXEGo6cxGTwW5krutpDJVbnltIuQMLsdz-vNnZ9EHmdhru7SzGHt8kFneux71YTrLp
+-oztdxtTZAXIlrXxt6oFW1ts2OP_htHxk0QUmCJrCjZwqumsAmt4_AEnzzjdJ3UlyfCEpzNBNnIN7YlqvXdqyEoJ-oUWupD5oFtRmF45ew4PFV36zU6sv_UT
+YCVZu7bj61iZ-0t03byaRQix5ZjyCTKjxrZiy1LQNj_VKgttmxtSUJiZx53V3zSS_wp-85blKj3VYsVU_BxOxe33DOF-ll5_uAeqJG1EQPmWCkyECsbtcCYx
+mtJQ7SRpxZ2P3m-J-NACAmtH7xJYvSlu1G
+}
+
+GCPEntityColoring(Cloud_Tools_for_Eclipse)
+!define Cloud_Tools_for_Eclipse(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Cloud_Tools_for_Eclipse, Cloud_Tools_for_Eclipse)
+!define Cloud_Tools_for_Eclipse(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Cloud_Tools_for_Eclipse, Cloud_Tools_for_Eclipse)
+@enduml

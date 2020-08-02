@@ -1,0 +1,13 @@
+@startuml Transfer_Appliance 
+
+sprite $Transfer_Appliance [64x64/16z] {
+tPOtWiKW34I5J4Pp_-DkAh70WxVxhxP9Jqa-32rjGr7PK_10uNy_N-02mILB1WY6h4YWIBB0G661UBpp9rJGg3Wqq3Iv4t70HRhZ7MOSaQVVW-kETrXnI2NS
+yGuxZkc-EvxekkCPX3lAOO1BhtU6vx2kxgSFKLQtHIjUQFl_ePwxfZz4GmmZE__F3fEVMmtJp-vLerEqUlo1L68xTsFO36PIdtzghVNU1n2P4jbj4TK3KQqy
+LWdR_O_s_7-Rpz__iD_p1-By4Ijit75wKV-Flo6YY_XnkqnnlgsB-4tIdkAtRT8NIJ6O_96yQjDN8F9tsRS7MpyauXM9ADzS3rIy81BjYvq10evHfdtpCz1f
+_oR75tu6xA_SlNHu4RMTSVVIOH2FpBlpCTgTJ-JT-NJQdO_oxdmo_tW-cV_T9vJcqtzeHUN3-0O
+}
+
+GCPEntityColoring(Transfer_Appliance)
+!define Transfer_Appliance(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Transfer_Appliance, Transfer_Appliance)
+!define Transfer_Appliance(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Transfer_Appliance, Transfer_Appliance)
+@enduml

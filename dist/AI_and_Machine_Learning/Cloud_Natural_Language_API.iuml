@@ -1,0 +1,13 @@
+@startuml Cloud_Natural_Language_API 
+
+sprite $Cloud_Natural_Language_API [64x64/16z] {
+tPP7jeKm34ELdfXu_zlzaz_y_4fqFEDEGHHVI8IRaSTwmyXupz0F329ENw3e0GKlkVI02wzeUaJ32xOUiTF1yFWHPZqc0vwbnonugXAK0tUSmwuK7PRat74E
+f_vW7iVTK7-OpXsHTmw5pujpn-MrFdVtS9O_uXts9sT9DuZ9MuV9tSKBxYPl7KusRnqMPVFMeQWIxsyGjsYTpDywt97yHjT8NfkeSlEpo8xbTpI_OdcfmVb1
+8laBoC7l1pFs_I85_n_qsFyBxDZwWSgzl-yH4bi_aOFhDoQLznqW1VSlT3O_NFUYs0VrXUk04kiloC7-X1dhRqXwJ8A3gM0Zs9_nWigvymZbpfCvTvxE3S_J
+kRWdZVKFiQoHSJE-
+}
+
+GCPEntityColoring(Cloud_Natural_Language_API)
+!define Cloud_Natural_Language_API(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Cloud_Natural_Language_API, Cloud_Natural_Language_API)
+!define Cloud_Natural_Language_API(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Cloud_Natural_Language_API, Cloud_Natural_Language_API)
+@enduml

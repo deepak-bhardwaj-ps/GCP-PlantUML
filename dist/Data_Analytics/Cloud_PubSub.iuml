@@ -1,0 +1,14 @@
+@startuml Cloud_PubSub 
+
+sprite $Cloud_PubSub [64x64/16z] {
+tLRNsYmX2BCNmFT_t7F-niwMgEpdtUPgMiGX670VXb3x0ZLiw7LiKC_ewmNYC23E-MpXyvIUXmbvnXSRNxmXUU-dC0mp0k9tExy3UXfl81grisjOnbieJtIF
+jQinDPE6-Aiyhwfcq8v1Ph26X6EiXAMzThHQVAIzTd5rg1be1sAahOR-UTinbEiFIByEaPurXDg9RadvLp11-Oqew-6P7r2L19JUVhSebyAQIg0amVAArw92
+f9z29H8qhTv4ZUQo9MwWZcHvxkhUrpADERG-nXmaYtUBqw6GK_xSDVdQFyzZfCccE3dH_8bBCjbgTeHSnwSlNbBzVcuyEagibGhQM_wEzrC_KlGHAhK6LVFy
+4CT39JiulW8z8SCE6z2d0PbUHpPROTycw8ZfrUV4O_kKMcxH-KRffGfEzAB0uiB_UDlwLN-C1DeNx5-66S0FYBPOErZQTvc-gMZsiaCEnXSy0zB1_BBGq3u3
+jxFv3Mk8uHr2iTBhuVpi9aXsxJ38h1r6i6k7KUp9moXsEeQl7O1-qMjm7uR_
+}
+
+GCPEntityColoring(Cloud_PubSub)
+!define Cloud_PubSub(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Cloud_PubSub, Cloud_PubSub)
+!define Cloud_PubSub(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Cloud_PubSub, Cloud_PubSub)
+@enduml

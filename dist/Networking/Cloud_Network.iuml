@@ -1,0 +1,13 @@
+@startuml Cloud_Network 
+
+sprite $Cloud_Network [64x64/16z] {
+tPT9aaCX34F1TfY2xt_SdkS62TVVHNkfKdv4zayF9gaTg0gnLoUgr-muGFr0klVVJ_pthVtcHxhj_FFCF_F1yE8Z53-MhFpztDyNTlE0bB2BComUKlbZpv0T
+PzWyg0ROnHcE7IYp7TPnmAwZTs6CtGTcfGoBGpzZcF6GyoGC6wAKGK3ZfQNrdbEUYE70VWS1WvQMLaS1naghTdyFM2EUItPTjVr6dLCIxQik7PjNzoTWrr1Z
+edBX5JKNVWkifzbtxVXxO6tt-sqvFqb_9zvqFR_DyvaVo6fdFIgE0hJI7cyeG2lT8zb1W5RUWGNzltFZUnGNHACxm71_yJjYNElF9BY_-GvkS7_m6o1Vs5-0
+OU06YkxlmFc2sM66d1rcoDXHXfnTdA7dXJt0i5wyds6_nzbXXfWTPiZPnKTO4rBXTgpClXyVJCy
+}
+
+GCPEntityColoring(Cloud_Network)
+!define Cloud_Network(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Cloud_Network, Cloud_Network)
+!define Cloud_Network(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Cloud_Network, Cloud_Network)
+@enduml

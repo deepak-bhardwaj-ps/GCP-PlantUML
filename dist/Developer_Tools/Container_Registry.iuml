@@ -1,0 +1,14 @@
+@startuml Container_Registry 
+
+sprite $Container_Registry [64x64/16z] {
+tPRNOWGX24MllGp-_-Uc9sn49XBVzhniFLEu8u8dmvTsG_6ufum_A0RTV80mDWXGkNRy2nffR96WG7i-kOtYsKlenpOU2zg-to29mq3OoCwMOHucygGxaPqj
+mpgCrDliI0fqbs6V7n3fpnNgQdRDO-N3jV58N6Tt1O3zrjW7mhNCC8l5bVbOlZycbXOPkj-N2KJYOx532G0M6TR9x_p-ayUIoGp3cFoX-GE0pB3_t-zyTqQV
+CoJDv_hfFY4FpUVyT7-ahlly_93gTzByuhulZJ8IAJufVdC0NELkcnM_BVt2BPtVBgy_BltCAuFVBkk7Vk9VW3_n0u1gkd_PWvpqkUWSXRf-a2U_S-ZyAEZh
+5o3PFsJ3rVi7ug9_2R9iTSlsVKN8c6_xvvnXt-lV0KorxnyDODpH_YKBPf-1hFltqVZ2sJ7zR7w1FvoVKC_cDxXztq5WoR0SpizGYBRi9DsUdJt309riAvua
+d-c0Assc_z2AnvFn2W
+}
+
+GCPEntityColoring(Container_Registry)
+!define Container_Registry(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Container_Registry, Container_Registry)
+!define Container_Registry(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Container_Registry, Container_Registry)
+@enduml

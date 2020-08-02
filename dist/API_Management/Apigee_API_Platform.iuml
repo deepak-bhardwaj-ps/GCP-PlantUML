@@ -1,0 +1,14 @@
+@startuml Apigee_API_Platform 
+
+sprite $Apigee_API_Platform [64x64/16z] {
+tLPP5YCX26HJMuFtF-wiffsWzk3pB_MJjO2csE3BG2a_814y8zN_8Fdf-mQuEi1h_il3VotfeReGLdpryHKToTjF8LKtQCRFVdw64L8tm4xj_1h6keLew6Yq
+szNmgfku7hLBGXHkGN8Wakj9mrB_HMd1iVu9jIKRpPycslLVK7wpI6lLtuwOHo-oqWu1KlDBgjJYY02uq33Qwawt1w8xkcYp7EVQIVSZ7m_NtbeDhNRK_wOV
+NSr0CmtP2jE-QQa3KiCt6fPnl6YdTmCw3gZIXfRzajzq307V1hYvCXhgh3dbDxrbvlfhG6OjhaQxEsvfzDk0j30CWWsfFtYN4NiQB8hMfO5mErdIgvxoys7y
+SfW_A7xzU9oZao_pkdxow6eSVRAkNvdj4VJs3ytxnvOWBllNkahJlSsh-O70ynqWrcgSpQzaDtomuxi77SVvcMoWhzNTbCVvJOp3XkVb-iemxe-1dZjxq50J
+V-ml8UIaHhkJzJtUGBlx--1ycT-0vUn-0Jgyd-0wkzy0_Nmqr4qDq-7z30l8mVtkrx304hIhdKLq9U_4G8HdOCm3oXiv8NmPVW8
+}
+
+GCPEntityColoring(Apigee_API_Platform)
+!define Apigee_API_Platform(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Apigee_API_Platform, Apigee_API_Platform)
+!define Apigee_API_Platform(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Apigee_API_Platform, Apigee_API_Platform)
+@enduml

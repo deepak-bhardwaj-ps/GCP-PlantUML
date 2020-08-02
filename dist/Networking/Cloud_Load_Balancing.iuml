@@ -1,0 +1,13 @@
+@startuml Cloud_Load_Balancing 
+
+sprite $Cloud_Load_Balancing [64x64/16z] {
+tPP5eiCm50EV6MBT_xYV-SkkdEmogzAqJSPaDyENjg1uMrFmWABh-ryG811ioW61msOaI2IRC20nd73pzc-XXumtGeDC8th41a5ifpVCs2B_qHrjfpUisAGA
+xVI67TjqtaudBjlP7rODCqIVDtHGVTwmgZvl6A3wl65NV3TjcB32x573SSKVj9tk8tKmQld0xFDH1QCFC8m0nfZv-Psl1pE_JNpoWD7ZDJzPl-8VPdwolRZF
+1rQ0pmTi7Q-JUVdr87_wcUuZxhplsSkwNyY-JQw_0evT_t1i-TH9mlAjxO7-qlfD6WeqkZpfU6Nxriz0k_ktU7pHpu3zL3kXeNe6hYVQdMpeZ97rTfmXj-D4
+lHsdo-quNc_7oVhDusHTvxZI6FsDLhpTZ6S
+}
+
+GCPEntityColoring(Cloud_Load_Balancing)
+!define Cloud_Load_Balancing(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Cloud_Load_Balancing, Cloud_Load_Balancing)
+!define Cloud_Load_Balancing(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Cloud_Load_Balancing, Cloud_Load_Balancing)
+@enduml

@@ -1,0 +1,12 @@
+@startuml Trace 
+
+sprite $Trace [64x64/16z] {
+tPP7WeGm30HjEGlh_y_TdBSzjD6DkjSCK0uADqFQU42J4xtP2OtNztyW6K5Q-mVZ7qkz64LP-PFpPoG-tlud5ACHv0_U7q3Fja4Ys_4DgsrH_-WHjkCRTlk4
+VA8EsW6VRAZxli9sl6yPj0C-qR0QzDc6qH1ymsuNwUU75j5Gh_jA7rhhXjFZp_-LmaF-dQNgytNw_EdrXy_NxFn-GSt10QyDdeIs3y-0svT7Y8E2k4Udx_m8
+UN4y0V0SeRIFxq2vucTmVH4-d07YlY_e-kRzXcOldacEB_mCgBxv9OXpVWhTCRzjxiCO49NLctD-3WiotmwZT3kCyEqmbVzucChhcDW6GjyOJSBDU0O
+}
+
+GCPEntityColoring(Trace)
+!define Trace(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Trace, Trace)
+!define Trace(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Trace, Trace)
+@enduml

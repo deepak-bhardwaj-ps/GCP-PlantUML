@@ -1,0 +1,14 @@
+@startuml AutoML_Tables 
+
+sprite $AutoML_Tables [64x64/16z] {
+tPRNkgmW34O9A11CtlznJzastFvcmkVTh9kfjgoqy6N4mWOb1fkY7oZl3hTFaDH12eyiwc09JypgOWuFYBeGSWHlF8HHtS0iO7N3uF191vYSxlmEimwHmnM2
+xlmEgrvP-4BJtrJRNGBHCHmsT7QxifhbxfwXfiC5HzVExUNHdMnEJfBba0JU6JiSGdVDsuig_cFiOY9g4Q6xlXVbrCKMEfpnKyaHespNeO2ehhv4ra_4kdAF
+g8GChT9wTrcrqf7TGlSic1jihhmz7R7Aj1-VGOTjWkIby-saPJj-GOakWj9wwV90zkCJaYMiz-JD2evdE6BQ1D9QBiVB5FkikZBVxgZJL6bDX7RC363BodCv
+yaDmfQMpV31CqccjQ8wGMaYNLH5NMlRi34XUySvjXbrIpD6Nw0HVPWRj6yzuxCuS_RV3oHenzVEMnTOEGFQ4nbtI7j-DByY7-8pExnVh2zu1sulz1JWStu7h
+Y_qDEBIWWCZ-_HKZW-uCXsvtumvRU2JwtM6oAtXlJf233HL6j1-uKFWo_W8
+}
+
+GCPEntityColoring(AutoML_Tables)
+!define AutoML_Tables(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, AutoML_Tables, AutoML_Tables)
+!define AutoML_Tables(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, AutoML_Tables, AutoML_Tables)
+@enduml

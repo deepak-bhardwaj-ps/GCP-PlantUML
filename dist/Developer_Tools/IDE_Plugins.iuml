@@ -1,0 +1,13 @@
+@startuml IDE_Plugins 
+
+sprite $IDE_Plugins [64x64/16z] {
+tPO7heKm30ITNeZlVznVaQp7KhAWogZIOSSsaPVXIpkXU3cdw0M5k9o-GT09WXoow0IB795qYYG739rYk8dm-0YzJkDbXwRJD46Y4eG9Tvp3h1HPFd7WZdDO
+bQIUkECTTgNfu8uaykxG8RhZ7RgZYCjAFNTOBxki73h4eTLp_ejZm6HOSkux3ZkyL8CfazQkSmCS9WWbx7H8NxikWyC1KXRhq5Xhj8zSGFM06wwFQ9PijUcI
+eDHIXm_wUo4dLfPnbMpX67ri0otchfecs-y_F-3fzMtx_evx_yZabp4_wQI_xUb-edxidXddU8NwxVlrsw5L6xOltp-IkVx5CyQ3-M6UQTBzyRqnv1_DRt38
+hm7Se_yNEkJNGEp_MpR4c-x08UVkfiCWIBtXxgP39tjapXqoA7T8vDmXdNA7UCuTahdmaCnTZhZIzkX_jEBbPNm3
+}
+
+GCPEntityColoring(IDE_Plugins)
+!define IDE_Plugins(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, IDE_Plugins, IDE_Plugins)
+!define IDE_Plugins(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, IDE_Plugins, IDE_Plugins)
+@enduml

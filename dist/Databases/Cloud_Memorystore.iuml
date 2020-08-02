@@ -1,0 +1,13 @@
+@startuml Cloud_Memorystore 
+
+sprite $Cloud_Memorystore [64x64/16z] {
+tPPNOiGW34G1O_hS_xZfYRQ8MIcVVZ-fuwB73eIBaMedr1Gu5U1KUzn_WGC6Zdr-mi3Sna-OE7Vv1HCh6eRd7s62cQJbEynq9PxXu32wipiiS54Uuf6uipXi
+SDA8Ex_30JU3kWjFu95Ct5doaxYpv5747Sd68EWE6xltKRPvDBsqoWUohdw_BHze3dLtyg7ypUySdY3v0ff7rahhVbaMvc1nT_DL7kS0jFb98urIIjpC3nWB
+AdTrFhRlZxNF9rad9A-qvcChPVB-8x_CLpg_CDJvINwIzVVvnuEk7-cPROytbfUNt-uZaRr_ensGPCXwFfCEaSakTNw2p4_V0uX3wexKjwS_DOVb2TKTtxxi
+Pu08Dubjt_upa7V_TXrVY3lYa31znpVgZZlaxlxfC0QDudP77ThTSOVSdT_X25kItPrESGxFVu4IEB5qXV5Dhp5SZ7S
+}
+
+GCPEntityColoring(Cloud_Memorystore)
+!define Cloud_Memorystore(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Cloud_Memorystore, Cloud_Memorystore)
+!define Cloud_Memorystore(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Cloud_Memorystore, Cloud_Memorystore)
+@enduml

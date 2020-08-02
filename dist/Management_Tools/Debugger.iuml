@@ -1,0 +1,14 @@
+@startuml Debugger 
+
+sprite $Debugger [64x64/16z] {
+tPP9ZWGX30InmHXe_F_lZX3gdQICvjPnfQAsb9VmOx3M3SeNkje5wjVFRn3DGSJ-pUFVe2xcGf3VVNudnyyx_uLiRdZbLxzV5tgo0w8pEt-6sOx87pg1xBmP
+5ZkaUBFBdWmRr1kX0voTfa6PZnb-IGErDnBCBZwhIGCzAYQY3BCXlmViFp8a-_PPf8vtdATLXAU_oh0i_FpuH_HuM5nd60twlFUDrzcfIBtN-Tsl8hhCK0pH
+mzs7f5tJack_R-gktIjh09_HV4rAqKEwgqcI0JhokwytTdGYlhdM4don0LtrHWdDDam_x_eeN_faaBXiVKMrtVtx1KsrhkS8mVgPVhoedv3t_crJlvF-xKVL
+EdsPBnzn_mW9zYyAr67_ad2dORyOx9zmV0WFTFZpH7aWU0ONb7_pxG04XnU4FUFRlmETpk_JzGLb1p8ytq7v7_iJoD2L7SuGGolVdw7-StyEWEJD3j5ysK7O
+bnqc-tuU9ljq36dzejsfok77-0C
+}
+
+GCPEntityColoring(Debugger)
+!define Debugger(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Debugger, Debugger)
+!define Debugger(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Debugger, Debugger)
+@enduml

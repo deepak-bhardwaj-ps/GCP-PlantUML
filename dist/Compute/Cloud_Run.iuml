@@ -1,0 +1,14 @@
+@startuml Cloud_Run 
+
+sprite $Cloud_Run [64x64/16z] {
+tPP7ekGm20KVoW7kVzn9La-oeD7thcjjOqHP03wCKBj13R2fyeRwx7KxG1G74IfJ74neP76HeS3YWibHlFCI1d4JiA6BcuuxIGv8JdT-XqMEAFWNKjnv7JOv
+f1dksbX9ijVX-Ayw-NgV3AV3S4UWSJsIsEDmRcx85GVKtpiikzpwYeFCcaFT7LsNkICqFGKcrLrQ1m2Oerg5fZQjlfmaL14zXR3StLbLQR-YpwXKOQXDAm4a
+8WpmwXWqzeyfHrjMuwhE3DiKMBjt_3h0-hUq5FBGktnOSQmEFTZeaNnhTRSK-Edx_M7-IQzV_QzDREk7OVkpnzi4eld_M1zVuPkf_qLMvmXPzyVw-4jEKTCN
+N2GsvwZHFm2ZVs2HpFwL-DqUSNDOpledmYtzeFHlPOzgslnmxW2qdL_LDRyKXuSxqEdyzgyljZlDeSrqhs_-7RWzszz0ueQmmU-mFjoVeP0EtNtDuO1AyBdJ
+AQxYFGbGO4Er_yVuGw-43-Cx
+}
+
+GCPEntityColoring(Cloud_Run)
+!define Cloud_Run(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Cloud_Run, Cloud_Run)
+!define Cloud_Run(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Cloud_Run, Cloud_Run)
+@enduml

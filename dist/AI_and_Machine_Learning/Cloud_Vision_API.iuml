@@ -1,0 +1,13 @@
+@startuml Cloud_Vision_API 
+
+sprite $Cloud_Vision_API [64x64/16z] {
+tPS5beGX38Dnv_x7NVSbD7rzEXcN0Es7z7SFfb3xHJK8zhe5LTwkRo1kGX7x9-EVq9utfOpyY_ClJoHFdyAmQOMJl_F-Vh2dhL0asV4CorQf_B5xm8vbsBPI
+ZM37Cnnw_m3iQ2M2tGnXoWpBDKbDOkY5XPe4XWsD_OlEl36Crn_ZhOk0sUNFpDIF6133ZCVktveU0SUGd5jexDyj5nZ3SWMDtVUzTq_fzMLu54CUOEnnlTe_
+zwMLG0nZdSTUFyFxvDFECIohlnl7d_ZyvUDVXuNVT2v8ysTUva_yQ5USlncV8zwuVbpXrYy-HzTz_yZI6P2u_GlN4SEqVmA6aY8yllGrW3UTNvWXNmDfps-o
+VE5hm66fNp13lWPkXlfDoT2V_3p3QgoV7L1YsI4DFJizm-Ym2fSyhCBPiRnq_VXWUWO
+}
+
+GCPEntityColoring(Cloud_Vision_API)
+!define Cloud_Vision_API(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Cloud_Vision_API, Cloud_Vision_API)
+!define Cloud_Vision_API(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Cloud_Vision_API, Cloud_Vision_API)
+@enduml

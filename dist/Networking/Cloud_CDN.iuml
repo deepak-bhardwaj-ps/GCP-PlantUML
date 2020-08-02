@@ -1,0 +1,13 @@
+@startuml Cloud_CDN 
+
+sprite $Cloud_CDN [64x64/16z] {
+tPQ7ZcmX34Ef2VN_F_UztPsEOk4hLCSgKuyfveQuBrFGMh4qR72T6-aEFp68ar34V6Vu3l4yAMN43uuVdjYywriO9grWyPNdgu6dUK6Hp8xFKAOfGTylk1_e
+Rq9bM12E3CgQ7Pwax3Di24y96RHTTkNsGqAhIvlivEwRmGJw9ZjvJ2l3FzpaGSJFLMMS8SvkjlaKE9i552rQmSwkg6gVNMzwVYXcXjdE_UE8owreYPNXiF65
+1mR32S0N7Xda1l25HmPj07pXaS5OUBtArmaCoFcd2Gp8_NCD653vTQlqA7z-eldu515fiyjJVJOHAVOzue-U7rpw-_8MtwFZh7wunDKlt4Uqi_hfmc7zTeMu
+Fr0FW3DKxlx2_z7DJzlUIn4-oFP5XEq1srd_ui9X_-JAGVy6CaJopfAmk1xspmue7VRlhd7PGGKkEopXDWzBE1pBQqLghMfmNwR_
+}
+
+GCPEntityColoring(Cloud_CDN)
+!define Cloud_CDN(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Cloud_CDN, Cloud_CDN)
+!define Cloud_CDN(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Cloud_CDN, Cloud_CDN)
+@enduml

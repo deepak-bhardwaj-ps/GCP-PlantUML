@@ -1,0 +1,14 @@
+@startuml BigQuery 
+
+sprite $BigQuery [64x64/16z] {
+tPQ7qWCX28Jr517Kzt_Sz9xbnCdKxDI_BEFnqSAVQMFP4MyJEu-9s6zV3v26GydsDu-_cNOQBf7bxpv_ZuxahQTm6sx1AX2_Nu0zZmKb9pi_mpAML3xi4RBp
+CwnZKTN1pizGr_qwPzUbK64PM7d2JlCZVDjdMAPTHdiC8thwEJsHH5NeZ2frcs4riikl_PPCXWa_FhQNJuqX58kXujGqy0l4a30Q_XeP6VyZIimZfvtlSM88
+ACtmi-JnglPm4Humf7Y-oQU_ulce7HU6Zg4iBtx517h7zFGS9JlyWjzVN_mKYlt-RENlrKzs_e9Q_FJfrmk_3WjjC-kdtltLh9_qQ1zKl_tgxzT2RSOUYNlz
+8th9qax_uB-aZ_w5sMTxR_Tqdn-LudCzunsGfnkcC0X0--ExlStFxm1jlZw4osr-Wm3PlRuU0SYw0U9mY0lSNuZX-Wsqkh-Tvul_1jGVxXV0SFq6hh_TRvWX
+LaH-FqF-yNuEXhAV7PQkirjdc8AjuayULl7RiIABAHNUmf_f2
+}
+
+GCPEntityColoring(BigQuery)
+!define BigQuery(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, BigQuery, BigQuery)
+!define BigQuery(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, BigQuery, BigQuery)
+@enduml

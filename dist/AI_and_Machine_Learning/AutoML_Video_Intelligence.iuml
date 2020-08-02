@@ -1,0 +1,14 @@
+@startuml AutoML_Video_Intelligence 
+
+sprite $AutoML_Video_Intelligence [64x64/16z] {
+tPP7eWGX20L5Mqnm_-F-w4HVqxYTMXif5CA74KipA37O5BsW-AVlBv3KGGgd37KmmXbPNUHmWgWB8KVmzaCOrGtCWgPk6fX-w0Q7qvtV8UiM_3QTe3k_m_f-
+mFP2rtUgxIw1w1WEErhTVbdTShTaA9aE1uwkdTlZr9tCFHyaoo49F5bpE8JkklSlgdXWTETpXExyVr470uKs_g9Z7SWtNpqbrfpIOy0QKGaChTAyHnyb36qy
+JxPcGUxmSsr_yuzCdCEeyuuCRjK5oKl_SOnQIod2__C7IdGHbDRZDhymysr-GhAaBIlEV7wSl_pDRr1hFq1QY-fB_2gVPbLUJZGrlVcRDGFOIkf1m4kRCQd-
+cbbH7I7tVn_nIsDFpu3a5M_TRl2N5BFq9Ng0jydW-yOr7hipI_yodQmIKw-xh6Rr06HNQFnBskMxjnVa8ZwxzNk_VS7kW4C7mzs--NlWkjE_0KZTK42mlt_5
+oAOxmw7RtRx37aw9VdSOtWpU_W8SRAWqHF-Z5GeVnZS
+}
+
+GCPEntityColoring(AutoML_Video_Intelligence)
+!define AutoML_Video_Intelligence(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, AutoML_Video_Intelligence, AutoML_Video_Intelligence)
+!define AutoML_Video_Intelligence(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, AutoML_Video_Intelligence, AutoML_Video_Intelligence)
+@enduml

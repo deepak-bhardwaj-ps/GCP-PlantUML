@@ -1,0 +1,13 @@
+@startuml Dedicated_Interconnect 
+
+sprite $Dedicated_Interconnect [64x64/16z] {
+tPP7jiGW30H9beoCxd_S7rQJQDCyxQRsDK5bWzANKRJVe6MXgozGNj__WEe45ViNurzGFvpYGFxW_969uUsFi3XDcVcTz_j4Rxv19Tln3SMta3SzWtPimzCt
+EObsV4ERV86-y35UMxHRphU1Tgn_tRUJ9rgjYXjcfhRWXYVbmuRLAHysjCNmRdm3XnRoPmr7n1z9FEBxOVwAoJ-VVfL_xDst0HwADnyzQIFgz-3lRy7v9Olu
+LqebubVm-f1-nwyl__uauNnyZux0-G6lFdtYg5NlzWYBdP-fXCxlUKEL5wxR7I27xY_SaD-1TkzlSdtXTq2BxI-f1FUdT0Rsjys6UURp3JMuFoT0OziXZ6i7
+ALmxZ733mmYdOxBsEVP7rvA-Z5y
+}
+
+GCPEntityColoring(Dedicated_Interconnect)
+!define Dedicated_Interconnect(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Dedicated_Interconnect, Dedicated_Interconnect)
+!define Dedicated_Interconnect(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Dedicated_Interconnect, Dedicated_Interconnect)
+@enduml

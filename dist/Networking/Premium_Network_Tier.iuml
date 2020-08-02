@@ -1,0 +1,14 @@
+@startuml Premium_Network_Tier 
+
+sprite $Premium_Network_Tier [64x64/16z] {
+tPL7jkmm20L16HdslzmVNcWTQEJ0i6laR51TO_WmKgSJUe9pkbpGhs-FFo3B3J9iEUG61-oeSeiA6rXkmNYnUB4bJ7AR10uajo5ufyW3Sj3Ttc6JHpJGu78N
+SZYs5uhFk7P7zSiJfafN3gTOM7TOMGpprDswU_k4idTtV1TUYKM4P_lUdJk7pOjN8bdC3939rhXnHvuGEhOEn_ljwN2TLSzX5WK3G7AiSqTxgIJ7NNR3UBIb
+IJjqQffYcELdlipErY6B0XqT-LSVsnhONZm0K7bB1RyJpj_AioYggHML3h89fSQcCzQx-lLuELgPRQIgIQX9he792YKT1Vjvj4JQZCsEoO896Ei6fMhP2DKa
+t8OHbK4hX6sdevDefYrmI8Jb5oLC2en-vp_A4e9nXJD2TSPtx1-O9K26nGYvMs3CtQ95tK7C8OEXnDmjPiZT8iNSBKR0NT0XWaUBkLjmm5t0uN8NSZXXIugv
+MxIRYnT_G8Dpi973_8OwmeVn5m
+}
+
+GCPEntityColoring(Premium_Network_Tier)
+!define Premium_Network_Tier(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Premium_Network_Tier, Premium_Network_Tier)
+!define Premium_Network_Tier(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Premium_Network_Tier, Premium_Network_Tier)
+@enduml

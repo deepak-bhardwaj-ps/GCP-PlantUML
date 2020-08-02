@@ -1,0 +1,14 @@
+@startuml Cloud_Spanner 
+
+sprite $Cloud_Spanner [64x64/16z] {
+tPO7rkmW28K5AoRiVxclaByw87eyTUxqyf7e3IMycR3IH1KTlBAZwk4d0I8lADhyjS9V9fvvITdYxpN-XeNDszz2v6MXnjCwJmgUU4FHyMxVmy9RAWCEZdUU
+XytuczmrjGNlA1RcWkHxs8r__EUDwDtrBdpoWJKbnpkFlppl92VaMfzx26ppZ-OUDjOLlRBKdABL9KAaUHvsjZMSlEPXvbLUz_0-uUzG-8JdtC_uVhk5iaqN
+eFA4HPw3I1Am8gay6ROZnH_v9Q7YfVmtpKiJmBn3vD0dUHdAxsQHbHn4fRsb1qgtBF49MAEIg57PtuATcNwcTNww2q7L-WYyrao5bsMEPg5LFXh8Qd_i23Ix
+ZuvXQOZxD7piLWz88mzo0GnV09bpn4laF2wgYXc3Tpkj_xRhj-BXxWm0-pmUj6zb1jhjtmVZYpu3zfFvnVVGdu7RmVoswI5e_Bg7zN1-3eRIkdUw-h9tkd3R
+k_qjh66cSe2Be9AcBgAAuStq5m
+}
+
+GCPEntityColoring(Cloud_Spanner)
+!define Cloud_Spanner(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Cloud_Spanner, Cloud_Spanner)
+!define Cloud_Spanner(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Cloud_Spanner, Cloud_Spanner)
+@enduml

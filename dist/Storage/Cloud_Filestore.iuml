@@ -1,0 +1,14 @@
+@startuml Cloud_Filestore 
+
+sprite $Cloud_Filestore [70x64/16z] {
+dTS7SYCn34HHC0eWWViVT_EQ9RE98VGgEdtRQaqY86L7eXk9xG4_XuhQ8otaIseND9Dhs9L1dcgNAZccNPfqrkrQ3xwqc1xdPWjWmhA5vE3As0Yi75rRBMW6
+LWwjdInE4rWvZj7ASHci73SULvxzJMi3h-slt6vEW_DfPTemo7H_PUszVSEipjeC6dFoQyTwNBlOBX46Clcuij11OyLhDzlrSe1UctfQMTcXOErko8XaElnJ
+NkcVnb_Q-joMKIhUkpQjojTebVTCQR3YgBndsWULFTDolB9d2irmPSjCeXglhCpwVebNtZDpdNB3bPKfwyGGhQoCW1kEM8LrdKHwkBBeEDs8zK15ql528doF
+bl5fHjmBxE0xBt2n3sS4t7Z4CnNS18KpGjzfF2CPt1p6CxGRqOmGK6mt_PKHZcM4e6IXJ2Ni5Sa8dQYJGIjZpUupT3PkCqAEOf22bJrobv7FdifLtYA5VFaY
+8vsUf9Vw6P52Dn9KwXymyHC
+}
+
+GCPEntityColoring(Cloud_Filestore)
+!define Cloud_Filestore(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Cloud_Filestore, Cloud_Filestore)
+!define Cloud_Filestore(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Cloud_Filestore, Cloud_Filestore)
+@enduml

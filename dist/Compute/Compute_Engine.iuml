@@ -1,0 +1,13 @@
+@startuml Compute_Engine 
+
+sprite $Compute_Engine [64x64/16z] {
+tPP7siCm24G7kKZ2SF_Z_YMzZ1pyiSjBsKqAJo3mPPJQTwW5-rJ_G8t7Zt_0v04c3Daym8OHYuTOCC0yX4cWUCTBM3nC0Q5xc4xYinzW2hgBErpz42kU4Uek
+xh3vGLh0NToX-ZlQ_asTtfXQ_UIk_2iHk3lWX9cwY-UtNNTc1PiPO9UtiKCXyKXpcWpTMUXyjk7GijU_B2plXRfJ0Txp8jAOmuLq9ydp0JFJeMLcfxpL4tRA
+ArDWexuxvTjThmpwUz5SNerFfxVyI7GstvE_VqxM3vhnjm4bStucLXKLdfT6lqcS4EyVFZv2_LjnndBp0pDLS2evRaDiRu_GtFn4oSrlVdtrTdrhxTCE88dx
+YpWCK9cUE9PON_WEgBdz1IMvFw4bzhU33WM4kCEQt9ynO8wxusZO7QV4tN7MUF4uQppEaTe7g6gl1L_6Bm
+}
+
+GCPEntityColoring(Compute_Engine)
+!define Compute_Engine(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Compute_Engine, Compute_Engine)
+!define Compute_Engine(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Compute_Engine, Compute_Engine)
+@enduml

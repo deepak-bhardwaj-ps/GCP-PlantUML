@@ -1,0 +1,12 @@
+@startuml Cloud_Storage 
+
+sprite $Cloud_Storage [64x64/16z] {
+tTOr0iCm44JH4UFS_xff0-DalUhoUkCNuS_4Dhve4Tyr_j0Cbxjla6YGS6dHOE5AeKd1XKsJ7NxyFDylZ3IB40RD1Zvbtf2CxUmDAs-fU1LaEtl3pfkwRkTi
+E7dRrEtiicndjqGxLyD0dnq-sdaQ9dv8GKYgeMw7To41q0qB3TTl9a0tt9Rh5wEyVkjsa2YKASiMeL6OcqVswVNZyFtpuV_3FEctW7WoVXA0xX-_0m32uVn1
+fLCJ-xPd3yXqAMBvzks1aGvPRL_ECq0utBzGlUtWQxWFZY_w33XTxPmD4pvrHpjdmm2bsjjfsz7EqR3WoZItqwAzdLRjFq-hzikrqCQ5EUTe4N_c0G
+}
+
+GCPEntityColoring(Cloud_Storage)
+!define Cloud_Storage(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Cloud_Storage, Cloud_Storage)
+!define Cloud_Storage(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Cloud_Storage, Cloud_Storage)
+@enduml

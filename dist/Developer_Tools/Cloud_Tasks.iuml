@@ -1,0 +1,13 @@
+@startuml Cloud_Tasks 
+
+sprite $Cloud_Tasks [73x64/16z] {
+hPW7rWCX28G51UR-5_vBJ2-kX9dNKxvzEqfjBnBpm4hXGzgn1ZOKdS2PEY8fDXMo1ZbsPKjEnxvq1Oe4o1SSmrb5lmKfHTBflDyTMKdPwRCySQVpVaiWhrWS
+VKuZ4MJ9a7Dy9qiSVIha0j_A2KvFzKMGTLK3GbKTS5KDm5Jx-QlFLy1VhtwVlx1fvtomdB_ww7V7AsXCa2z0ho4NHP3VWgm6ElijKGR5-UYBe7F8AQgWSyW5
+0mHh2We8OYJG21B8Q23Qgz7CRau16Ur2iaA45RIqDC9ARFHKsxm4igDoX5ivmdqvUlQKLI07gMG7hOaWjJLEQhGWhDQFrOpIscDcmyuV8VX3JHFaH1xyodu7
+UJWk--sa1GA4jz98a5AS_De7yMxjymi
+}
+
+GCPEntityColoring(Cloud_Tasks)
+!define Cloud_Tasks(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Cloud_Tasks, Cloud_Tasks)
+!define Cloud_Tasks(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Cloud_Tasks, Cloud_Tasks)
+@enduml

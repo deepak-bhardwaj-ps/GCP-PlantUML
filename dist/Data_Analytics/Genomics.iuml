@@ -1,0 +1,13 @@
+@startuml Genomics 
+
+sprite $Genomics [64x64/16z] {
+tTRPOZCX20LWS3GWmli_xhzqTwR7OEUktsMRbKC0-cMAz0Kfj2RnXEIVlly2HoGS18r868IqI6a4UAGu9ugtNy8IQOM-qIEjqrMD3KSokto6ZzZoe1bx0BaC
+DPvnczv25zdf8JRpS2PscA75LtJ1BkS6CvpTGQNE9EpI8HLdD-9Agu8CGNRf33b-nZcRtH2BR-XYQ5Lgygh7GB-kyfdTYTCdLrGZmqEhKTDN5exU9MfkQ0qT
+e8GWkxHciTAPUwoOnme_wmw_-_n-y_FNkAMHePOTkJbQu80TOVggeIwhHAHeHOdJfq3zIup-CwBBgmgsIy7ZmyJY6GLxUtS7r9zczyx0g9mOte7bifqjfCuA
+7NW7wpaxTRg2Dy2SuM1Y3nypFNJE3gzlj_qRQ7T_qqdTpsvcz-uNAZVl9z9xznjnf35DTjUutBoV2QZPx13BPGULxUpsIoYqyiWz7MFf9_QfIw5VvYy
+}
+
+GCPEntityColoring(Genomics)
+!define Genomics(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Genomics, Genomics)
+!define Genomics(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Genomics, Genomics)
+@enduml

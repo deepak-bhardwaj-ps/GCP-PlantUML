@@ -1,0 +1,14 @@
+@startuml Cloud_AutoML 
+
+sprite $Cloud_AutoML [64x64/16z] {
+tPPdWZGX24GHiwttF-uN9rFbojzvkvCx84y5-JAqzWrLPKzTFr0Tfxil4DS1KIZNEk0IHbv7P27CTSGC1ydpfr3NCIg0lexfOadBGJnmvtDObeiYxmJZpkUm
+BIVDk8C3xBTOyzxXO0dMMwpsYB5przy6rk3IJ1jtuMr9JxWuBkwkleyiOx-5kPll8xjknp27ZIpma5AQVwFvyzgfGvkPSRoWbBZ3rstGOJQ7KIbg7G8lWKWf
+85CJ70Qbt2pOlNHOTrXAWa6DYM-lK8fDoWHXGYcAipADv08NL2KbOYGxAr6OJ4gM0VmNDgFD6aGBM-rXR4P7P6gqqndTJL2yt70f1QxDb5Bzyph_l0PJteqK
+QY7nyZu3BttvTh-nAU-PRj-t7VEMEUwEzqtnkNLpTxnyFVTCbOqx6jnppnviDz9T-VRtGDxwxMnVg3lYqD-3ghz_ShGWt1rto0c2A3vtbkbqPntwtVaT3g6e
+pvsbE9Fdlq2HFQ5qnFX7hq6-ZDy
+}
+
+GCPEntityColoring(Cloud_AutoML)
+!define Cloud_AutoML(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, Cloud_AutoML, Cloud_AutoML)
+!define Cloud_AutoML(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, Cloud_AutoML, Cloud_AutoML)
+@enduml

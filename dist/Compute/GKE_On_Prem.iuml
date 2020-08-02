@@ -1,0 +1,16 @@
+@startuml GKE_On_Prem 
+
+sprite $GKE_On_Prem [71x64/16z] {
+fPY7RiKW34KD8GoF___TAdwlL56vX8ZJlIny3okbVyJIU4Qh1prJxHaEz03R2a9pigrHQKQmLOw5O3RREcoTSolVZX8YsHiA0THU4RPaTzfSzfxqPc-HJTbO
+EfQjyaBwQO0QAFAoT0Ks8bqaDA98DyeuGtVXxx9YwNFPcdqWQXolNwdFqjiu5AB8FODnH3AHpKqzbE3bzNfpjpoNVWzGOm_iK-1KpsayjJHqsSFwf_ufzO9D
+JC-O14dNaKJnlmnqqNFnJdKilOowJTstuyQCXpij3sLxDb7Dyh-rosEj2SXcR-5U9nJKb0bOsI9gbhDh_f9LSt4jWtMHXzyLbvSfrDzuabWDLuYHmb1wCbp6
+1N7ylay7B6EvJSlux67JT7KVSHaMM4OJEKLpdnYeZ38i8yQVOFgaLbocugOYtsOnpvgAisoI-efnPIa4NEQaDesuc6RA_aLEM3XHWDbuCg7zxc2KO3RdHy2e
+J5_VHulVT90f7XyAsW_qSjlpKPa37557tyArJqAdZKAeyC1iVJltpLFCyGcPu0NbGET2KYza7t8VrusCpvVUJjPQzM-0Xmnapq-xlgY2U6lWn4kFPs_VRQp2
+snWlNVl29plrd4R4fNj9_Xu5bTSk_O8lLDamOVVEvkJT6wIZ6_TP81j8Nu0txlf0Df2-yOGd6uyUIFgwx2tfGf2mAVkzTAOP-bhsblH2S-gRV3VZQVHCB0mG
+XqV_UFa1
+}
+
+GCPEntityColoring(GKE_On_Prem)
+!define GKE_On_Prem(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, GKE_On_Prem, GKE_On_Prem)
+!define GKE_On_Prem(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, GKE_On_Prem, GKE_On_Prem)
+@enduml

@@ -1,0 +1,14 @@
+@startuml App_Engine 
+
+sprite $App_Engine [64x64/16z] {
+tPRTqlCW28GH5KJn_Y_t-pNprWcasCFkKSVCMkNH5VWo8Sk36E5PFD-8u_Rp2V8CAFl-4V4FrrvdIDNpQyolAL2yynBY30ijlyJzOjYBkTLS78OnTWr0OWp9
+-nzx0GIxaibERrGzXisfa_kfHTYrobmvmB3FO_MDdQtUc9jtgSeRTbhJgYtfCqDwUyZvYM5oLrUQIFl_wu5XS-pNifMS2PeRMhmpwSuMq66dQtYRG6s6rQuC
+-IFxDYqswHgMcacxpAbscVKswo2Q_LfLHMRyFra169Dup5srx-O4GBCj9WrNaNWb0G4WRLDqlSKAJrwfaNcnA7FAlmytNhhvSVUdovzV_RZvvVOo_Am_N-kl
+y_yOtLwPRfshgtu2o8m08Aj-TrNeDh_NAvvTVWC0_VDJbrtNY9tZpJ-_KbBApJ-_ubpVa_lZ7EmrljrVBsBKouyQoWyed-LNVOvlfM1--a__2EMtmV2q1qZd
+VWmytmSza9xPDT2-dFM0_SG-mkrRl0Tk7x3xa642ItJCpcSOPtVEi8AdVixkd646NnGhdY-AsNqb5bFzhuGHlao_0G
+}
+
+GCPEntityColoring(App_Engine)
+!define App_Engine(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, App_Engine, App_Engine)
+!define App_Engine(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, App_Engine, App_Engine)
+@enduml

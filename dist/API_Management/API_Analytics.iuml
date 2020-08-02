@@ -1,0 +1,14 @@
+@startuml API_Analytics 
+
+sprite $API_Analytics [64x64/16z] {
+tPK7ikCW44G94d7w_jVTnTPiO90-NQxevnoWK3-fSLz6oFM17Dmp6J-GYU7q114RH7TBnmRTtN5YYzFT8DX2_4PuV8G1smIte6ARwYm72EA6EyvX0aMQXdlZ
+ZdDOG58UtF4E6sYQSKTo67SStRgZ7JwxInTF3jVkvD-pDEfNQuVHV3t6XJmYqd3pi1MBTMZTITJ3wgy_1A1xxKUn3aypfyy2r32qzEifL85axu9rA7Ee6cTq
+4OZ7zMRG_QnAZBlNyQHuoeYteVUnI86SCM6ydRkqpSqIth5vu7nFdiQBVmSPvfPgCbVZ0Rdgh8mHOxPo5PRWc6NBf-FhnlhFl-kVRRTZbLz-vNUT6ffVNkRd
+cl7NCH3LzkIlEnTjDMS1IXWJwR1G19ANVpQ9Q2-4ZeiUj6TaiOzuJ5IzVXIzVkgw0nCCilLLDlisXR3rQTmfxQF-L2qaaTw-h3l5WoQms_VQdIAikuc3TJVJ
+E7U6mBcp5DQTmZlqRaNYt5c4T6STykvuXytT4ZXtbaI6nq-Gt3C-rJNjDpLxzsNy0W
+}
+
+GCPEntityColoring(API_Analytics)
+!define API_Analytics(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GCP_SYMBOL_COLOR, API_Analytics, API_Analytics)
+!define API_Analytics(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GCP_SYMBOL_COLOR, API_Analytics, API_Analytics)
+@enduml
